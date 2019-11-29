@@ -1,0 +1,16 @@
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:NO 13:27:6:640
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:NO 13:27:44:186
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:43:16:227
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:43:47:471
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:54:36:510
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:54:50:734
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:55:3:594
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:55:46:990
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:56:16:176
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:56:52:670
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:57:55:70
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:58:30:410
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 13:59:13:373
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 14:2:39:498
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 14:3:6:76
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:72367b93-6d4e-3bce-2a25-a678056e57cc  CIE:NO 14:4:56:41

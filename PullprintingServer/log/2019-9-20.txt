@@ -1,0 +1,16 @@
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 11:59:7:721
+user:leonelli@fbk.eu doc: n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:8:53:223
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:16:25:481
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:20:30:867
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:26:11:405
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:30:49:602
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:34:19:422
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:34:43:952
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:37:27:380
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 12:40:3:953
+user:leonelli@fbk.eu doc:test n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 15:53:21:485
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 15:53:31:197
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 15:55:51:200
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 15:55:59:406
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 15:59:31:348
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:SI 15:59:46:927

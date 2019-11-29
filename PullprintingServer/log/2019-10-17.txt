@@ -1,0 +1,15 @@
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 9:7:2:228
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:SI 10:18:46:248
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:19:7:445
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:19:14:106
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:20:4:863
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:SI 10:20:45:94
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:SI 10:20:53:212
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:21:21:654
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:21:38:263
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:NO 10:22:12:952
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:NO 10:22:51:603
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:45:1:340
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:45:20:133
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:45:27:29
+user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:SI 10:45:56:662
