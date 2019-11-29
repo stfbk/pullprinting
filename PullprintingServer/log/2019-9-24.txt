@@ -1,0 +1,5 @@
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c1397c97-f9c4-450e-fbd8-66ad06c3e945  CIE:NO 9:47:17:759
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c1397c97-f9c4-450e-fbd8-66ad06c3e945  CIE:NO 10:14:21:388
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:NO 10:16:10:523
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:NO 12:37:34:822
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:c0bc4eec-e6a2-1187-1c63-fc7842ee4678  CIE:NO 12:43:29:458
