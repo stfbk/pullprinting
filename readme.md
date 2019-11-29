@@ -1,14 +1,14 @@
 # Pullprinting
 Pull printing is the set of technologies and processes that allow print jobs to be released according to specific conditions; typically user authentication and proximity to a printer. We developed an open-source pull printing infrastructure based on Google CloudPrint that leverages the OpenID Connect protocol and the electronic IDentity (eID) card to protect users prints with a second-factor authentication. Our goal is to prevent print-related data breaches and tackle the challenges that hinder the widespread adoption of more secure printing solutions: costs and user experience. Additional information can be found at https://sites.google.com/fbk.eu/pullprinting.
 
-##Requirment
+## Requirment
 - NFC reader in your phone to read the physical CIE
 - Authentication and Authorization Control Module (AAC) to enable and response to the CIE reading (here you can find an example https://github.com/scc-digitalhub/AAC)
 - UNIX virtual machine to set up the server with the API for the application
 
-##Installation
+## Installation
 
-###Google console
+### Google console
 - Open Google console with your Google administrator account
 `<link>` : <https://console.developers.google.com>
 - Create a new project for the pullprinting
@@ -40,7 +40,7 @@ smartcommunitylab.it
 demo-app.io
 ```
 
-###CUPS and virtual spooler installation
+### CUPS and virtual spooler installation
 - Install CUPS
 ```shell
 sudo apt install cups
@@ -50,13 +50,13 @@ sudo apt install cups
 - Go inside the '*Administration*' panel and click on '*Add Printer*'
 - Follow the steps and create a generic printer with a generic driver that will be used as **virtual spooler**
 
-###CloudPrint installation
+### CloudPrint installation
 - Access with the chosen administrator account into *Google Cloud Print* at the link
 `<link>` : <https://www.google.com/cloudprint>.
 - In your predefined Google account, you will see now a new printer called **virtual spooler**.
 - Click on the *virtual spooler* printer and then select *detail* button you can found in the *Advanced Details* the **Printer ID**.
 
-###Backend installation
+### Backend installation
 - Create a new Unix virtual machine.
 - Give to the machine a static **IP address **.
 - (Optional) Assign a new A entry in your DNS to give an **FQDN** at your virtual machine.
@@ -76,7 +76,7 @@ or
 node server.js &
 ```
 
-###Mobile application installation
+### Mobile application installation
 - Now you have to downaload the **PullprintingMobileApp** from GitHub.
 - Change in the configuration file **Commons.java** the variable *spoolerID* in the mobile application putting the **Printer ID** found on Google Cloud Print.
 - Change in the configuration file **Commons.java** the variable *ipaddress* in the mobile application putting the **IP address** or **FQDN** of your server.
