@@ -60,17 +60,17 @@ gcp-connector-util init
 ```
 - an example:  
 ```shell
-  Enable local printing? y
-		Enable cloud printing? y
-		Retain the user OAuth? y
-		User or group email to share with? <your-address@your-gsuite-domain>
-		Proxy name? <whatever>
+Enable local printing? y
+Enable cloud printing? y
+Retain the user OAuth? y
+User or group email to share with? <your-address@your-gsuite-domain>
+Proxy name? <whatever>
   ```
 - Run the GCP connector 
 ```shell
 gcp-cups-connector -config-filename gcp-cups-connector.config.json
 ```
-- (optional) Run the connnector in background on the server.
+- (Optional) Run the connnector in background on the server.
 ```shell
 gcp-cups-connector -config-filename gcp-cups-connector.config.json &
 ```
