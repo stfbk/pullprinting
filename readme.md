@@ -49,6 +49,32 @@ sudo apt install cups
 - Open the web interface at http://127.0.0.1:631;
 - From the '*Administration*' panel, click on '*Add Printer*' and follow the steps suggested to create a generic printer with a generic driver (that will be used as our **Print Server**).
 
+### GCP connector
+- Install the GCP conncector to connect the CUPS spooler with Google Cloud Print
+```shell
+apt install google-cloud-print-connector
+```
+- Then init the configuration
+```shell
+gcp-connector-util init
+```
+- an example:  
+```shell
+  Enable local printing? y
+		Enable cloud printing? y
+		Retain the user OAuth? y
+		User or group email to share with? <your-address@your-gsuite-domain>
+		Proxy name? <whatever>
+  ```
+- Run the GCP connector 
+```shell
+gcp-cups-connector -config-filename gcp-cups-connector.config.json
+```
+- (optional) Run the connnector in background on the server.
+```shell
+gcp-cups-connector -config-filename gcp-cups-connector.config.json &
+```
+
 ### CloudPrint install verification
 - Access with the IT admin account to *Google Cloud Print* at the link https://www.google.com/cloudprint and verify a new printer called **Print Server** is present.
 - Click on the *Print Server* and note the **Printer ID** from *Advanced Details* in the detail section.
