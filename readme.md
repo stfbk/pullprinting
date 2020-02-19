@@ -49,6 +49,11 @@ sudo apt install cups
 - Open the web interface at http://127.0.0.1:631;
 - From the '*Administration*' panel, click on '*Add Printer*' and follow the steps suggested to create a generic printer with a generic driver (that will be used as our **Print Server**).
 
+Or configure the printer using the command line tool:
+```
+lpadmin -p NORD_AMM_ColorCopier -E -v http://print.fbk.eu/printers/NORD.AMM.ColorCopier/.printer -P /usr/share/ppd/cupsfilters/Generic
+```
+
 ### GCP connector
 - Install the GCP conncector to connect the CUPS spooler with Google Cloud Print
 ```shell
