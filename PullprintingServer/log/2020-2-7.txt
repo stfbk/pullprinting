@@ -1,0 +1,17 @@
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 15:31:57:879
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 15:32:39:199
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 15:35:13:691
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 15:35:33:498
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:aa356f6f-3501-e349-8c9a-b3b78ecde672  CIE:NO 15:40:19:868
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:NO 15:46:11:685
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 15:47:17:707
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:f6494905-f6a6-43e9-8f59-65e76534a8fc  CIE:NO 16:3:30:900
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 16:21:27:453
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 16:23:46:517
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 16:25:48:328
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 16:34:29:978
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:10565f14-1847-799c-8f2d-7ee61b40cd45  CIE:NO 16:36:5:62
+user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:d482a679-adf5-8f14-e48c-6da0eb943a40  CIE:NO 17:28:3:353
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:c54e45c4-62e7-1cd3-8c1b-45b6767d9ca4  CIE:NO 17:38:36:768
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:c54e45c4-62e7-1cd3-8c1b-45b6767d9ca4  CIE:NO 17:41:19:530
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:c54e45c4-62e7-1cd3-8c1b-45b6767d9ca4  CIE:NO 17:44:1:690

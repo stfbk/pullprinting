@@ -1,0 +1,4 @@
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 13:40:55:920
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 14:7:13:870
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 14:28:51:91
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 16:12:18:343

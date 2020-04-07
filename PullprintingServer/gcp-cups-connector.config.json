@@ -1,0 +1,11 @@
+{
+  "local_printing_enable": true,
+  "cloud_printing_enable": true,
+  "xmpp_jid": "8adaf95e9925baea73f7c27784bd9081@cloudprint.googleusercontent.com",
+  "robot_refresh_token": "1//095i0TD5lpL99CgYIARAAGAkSNwF-L9IrhcftAPrCrW12wDTq-iksxL7ZXxR-AgIgiqi0U5ZMksKNePPUeMx2ntSfudU0jh4kvJI",
+  "user_refresh_token": "1//09u_sddBnNWCLCgYIARAAGAkSNwF-L9Irb1kHVsmRqVB1tNDKsxeRbwBaM7gQK_LkZUXfa5tjk1xDcnunzFsCc2VX2jnLCFHkNzs",
+  "share_scope": "leonelli@fbk.eu",
+  "proxy_name": "0d918dfe-ba88-452d-ae77-08103f46efb5",
+  "log_level": "INFO",
+  "log_file_name": "/tmp/cloud-print-connector"
+}
