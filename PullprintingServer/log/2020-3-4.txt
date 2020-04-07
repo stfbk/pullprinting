@@ -1,0 +1,38 @@
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:5 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 8:39:39:261
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:5 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 8:41:18:402
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 8:47:20:609
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 8:47:40:893
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 8:58:56:449
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 10:36:41:114
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 10:43:37:994
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 12:9:4:818
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 12:9:58:569
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 12:13:8:995
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 12:15:29:598
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 12:19:38:563
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 12:22:56:839
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 13:16:55:238
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 13:17:36:155
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 17:49:14:41
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 17:57:19:538
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 17:57:47:159
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:0:15:4
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 18:1:36:29
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:6:5:531
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:b24aab27-7611-e9e0-e054-04c6ea62c20a color:STANDARD_COLOR CIE:NO 18:13:7:723
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:b24aab27-7611-e9e0-e054-04c6ea62c20a color:STANDARD_COLOR CIE:NO 18:16:1:811
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:b24aab27-7611-e9e0-e054-04c6ea62c20a color:STANDARD_COLOR CIE:NO 18:17:10:62
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:17:45:550
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:20:9:279
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:24:8:766
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:28:46:321
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:38:56:792
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 18:40:44:746
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:46:34:494
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 18:50:53:506
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 19:3:19:676
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 19:6:6:476
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 19:19:8:101
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 19:20:48:392
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 19:31:15:450
+user:MatteoLeonelli99@gmail.com doc:ER+_SMS_OUT_20-21_learning-studies_en.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_MONOCHROME CIE:NO 19:35:6:246

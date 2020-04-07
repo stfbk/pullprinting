@@ -1,0 +1,12 @@
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:5:7:478
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:8:41:668
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:19:39:32
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:35:24:800
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:49:17:66
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:53:27:247
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:57:37:880
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 17:58:32:643
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 19:37:50:312
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 19:39:44:293
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 19:40:26:219
+user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181  CIE:NO 19:40:34:754
