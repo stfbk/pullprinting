@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:14:1-40:12
+INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:14:1-40:12
+INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:14:1-40:12
+	package
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:15:5-33
+		INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+		INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:14:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:17:22-64
+application
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:19:5-38:19
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:20:9-24:56
+	android:launchMode
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:24:13-44
+	android:exported
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:22:13-37
+	android:theme
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:23:13-72
+	android:name
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:21:13-60
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:26:9-37:20
+	android:exported
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:27:13-56
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:${appAuthRedirectScheme}
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:29:13-36:29
+action#android.intent.action.VIEW
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:30:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:32:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:33:17-78
+	android:name
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:33:27-75
+data
+ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:35:17-67
+	android:scheme
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml:35:23-64
+uses-sdk
+INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+		INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+		ADDED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml
+		INJECTED from /Users/matteo/Desktop/PullprintingMobileApp/library/AndroidManifest.xml

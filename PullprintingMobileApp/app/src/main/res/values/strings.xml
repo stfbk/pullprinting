@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FBK Pullprinting</string>
+    <string name="title_activity_stampa">Stampa</string>
+    <string name="action_settings" />
+    <string name="title_activity_printer_list">printer_list</string>
+    <string name="title_activity_job_list">job_list</string>
+    <string name="login_with_an_fbk_account">SIGN IN</string>
+    <string name="benvenuto_in_fbk_pull_printing">BENVENUTO IN FBK PULL PRINTING</string>
+    <string name="title_activity_cie_auth">CieAuth</string>
+    <string name="auth_granted">Authorization granted</string>
+    <string name="exchange_complete">Exchange completed successfully</string>
+    <string name="refresh_failed">Token refresh failed</string>
+    <string name="exchange_notification">Exchanging code for token</string>
+    <string name="intro_header">OpenID AppAuth Demo</string>
+    <string name="openid_logo_content_description">OpenID Foundation Logo</string>
+    <string name="refresh_token">Refresh token</string>
+    <string name="access_token_expires_at">Access token expires at: %s</string>
+    <string name="no_access_token_returned">No access token returned</string>
+    <string name="no_refresh_token_returned">No refresh token returned</string>
+    <string name="refresh_token_returned">Refresh token returned</string>
+    <string name="no_id_token_returned">No ID token returned</string>
+    <string name="id_token_returned">ID token returned</string>
+    <string name="view_profile">View user info</string>
+    <string name="unknown_expiry">unknown</string>
+    <string name="auth_header">Sign in with:</string>
+    <string name="no_idps_configured">No IDPs are configured. Please edit idp_configs.xml</string>
+    <string name="authorization_failed">Authorization Failed</string>
+    <string name="title_activity_stampa_job">StampaJob</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
