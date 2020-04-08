@@ -591,7 +591,8 @@ public class AuthorizationRequest {
             setRedirectUri(redirectUri);
             setState(AuthorizationRequest.generateRandomState());
             setNonce(null);
-            setCodeVerifier(null);
+            //setCodeVerifier(null);
+            CodeVerifierUtil.generateRandomCodeVerifier();
         }
 
         /**
