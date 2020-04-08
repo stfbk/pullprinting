@@ -592,7 +592,7 @@ public class AuthorizationRequest {
             setState(AuthorizationRequest.generateRandomState());
             setNonce(null);
             //setCodeVerifier(null);
-            CodeVerifierUtil.generateRandomCodeVerifier();
+            setCodeVerifier(CodeVerifierUtil.generateRandomCodeVerifier());
         }
 
         /**
