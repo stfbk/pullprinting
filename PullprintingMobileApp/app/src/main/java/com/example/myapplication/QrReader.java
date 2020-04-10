@@ -108,6 +108,9 @@ public class QrReader extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
+            else{
+                onBackPressed();
+            }
             break;
         }
     }
@@ -145,10 +148,9 @@ public class QrReader extends AppCompatActivity {
         cameraPreview.getHolder().addCallback(new SurfaceHolder.Callback() {
             @Override
             public void surfaceCreated(SurfaceHolder holder) {
-                if (ActivityCompat.checkSelfPermission(getApplicationContext(),
-                        Manifest.permission.READ_CONTACTS)
-                        != PackageManager.PERMISSION_GRANTED) {
-                    if (ActivityCompat.shouldShowRequestPermissionRationale(QrReader.this,
+                if (ActivityCompat.checkSelfPermission(getApplicationContext(),Manifest.permission.READ_CONTACTS)  != PackageManager.PERMISSION_GRANTED) {
+
+                    /*if (ActivityCompat.shouldShowRequestPermissionRationale(QrReader.this,
                             Manifest.permission.CAMERA)) {
                         // Show an explanation to the user *asynchronously* -- don't block
                         // this thread waiting for the user's response! After the user
@@ -160,13 +162,20 @@ public class QrReader extends AppCompatActivity {
                         // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
                         // app-defined int constant. The callback method gets the
                         // result of the request.
-                    }
+                    }*/
+
+                    ActivityCompat.requestPermissions(QrReader.this,
+                            new String[]{Manifest.permission.CAMERA}, RequestPermissionID);
+
                 } else {
                     //if (ActivityCompat.checkSelfPermission(getApplicationContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
                     //ActivityCompat.requestPermissions(QrReader.this,
                     //      new String[]{Manifest.permission.CAMERA},RequestPermissionID);
                     //return;
                     //}
+                    ActivityCompat.requestPermissions(QrReader.this,
+                            new String[]{Manifest.permission.CAMERA}, RequestPermissionID);
+
                     try {
                         cameraSource.start(holder);
                     } catch (IOException e) {
