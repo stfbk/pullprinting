@@ -1000,6 +1000,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
 
     private Response requestDelete(String accessToken, String jobID) throws IOException {
         {
+            System.err.println("StartRequestDelete:"+ new Timestamp(System.currentTimeMillis()));
             HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
             logging.setLevel(HttpLoggingInterceptor.Level.BODY);
             OkHttpClient client = new OkHttpClient.Builder()
@@ -1141,7 +1142,6 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
 
     private Response requestQueuePrinter(String authToken) throws IOException {
         System.err.println("StartRequestPrinterList:"+ new Timestamp(System.currentTimeMillis()));
-
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder()
@@ -1371,6 +1371,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
 
     //get model from printers
     private Response requestModelPrinters(String authToken) throws IOException {
+        System.err.println("StartRequestModelPrinters:"+ new Timestamp(System.currentTimeMillis()));
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder()
