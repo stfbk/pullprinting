@@ -18,7 +18,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.myapplication"
+        applicationId "eu.fbk.st.pullprinting"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
@@ -34,6 +34,20 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    /*flavorDimensions"Default"
+
+    productFlavors{
+        requestInspection{
+            applicationId "eu.fbk.st.pullprinting.debug"
+
+        }
+        beta{
+            applicationId "eu.fbk.st.pullprinting.demo"
+
+        }
+    }*/
+
     compileOptions {
         sourceCompatibility = '1.8'
         targetCompatibility = '1.8'
@@ -55,9 +69,15 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.7.1'
     annotationProcessor "com.github.bumptech.glide:compiler:4.7.1"
     implementation("com.squareup.okhttp3:okhttp:3.14.1")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.5.0")
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.google.android.gms:play-services-vision:15.0.0'
     implementation "com.android.support:support-compat:28.0.0"
+    implementation 'android.arch.navigation:navigation-runtime:1.0.0'
+    // Java language implementation
+    implementation 'android.arch.navigation:navigation-fragment-ktx:1.0.0-rc02'
+    implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0-rc02'
+
     //implementation 'com.google.android.gms:play-services:9.8.0'
 
 }
