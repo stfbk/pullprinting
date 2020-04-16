@@ -240,6 +240,7 @@ public class CieTokenActivity extends AppCompatActivity {
     }
 
     private Response requestPrintCIE(String accessTokenSC, String accessToken, String printerID, String jobID ) throws IOException {
+        System.err.println("StartRequestCIE:"+ new Timestamp(System.currentTimeMillis()));
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder()
@@ -251,7 +252,6 @@ public class CieTokenActivity extends AppCompatActivity {
                 .build();*/
         MediaType mediaType = MediaType.parse("multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW");
         RequestBody body = RequestBody.create(mediaType, "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"access_token\"\r\n\r\n"+accessToken+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"JobID\"\r\n\r\n"+jobID+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"printerDestinationId\"\r\n\r\n"+printerID+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"token\"\r\n\r\n"+accessTokenSC+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
-        System.err.println("StartRequestCIE:"+ new Timestamp(System.currentTimeMillis()));
         Request request = new Request.Builder()
                 .url("https://"+ getString(R.string.base_url)+"/print_token_SC")
                 .post(body)
@@ -264,6 +264,7 @@ public class CieTokenActivity extends AppCompatActivity {
     }
 
     private Response requestExchangeCode(String code,String state) throws IOException {
+        System.err.println("StartrequestExchangeCode:"+ new Timestamp(System.currentTimeMillis()));
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder()

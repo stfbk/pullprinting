@@ -54,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/TokenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="11400">
               <caret line="843" column="58" selection-start-line="843" selection-start-column="54" selection-end-line="843" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,11 +66,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/QrReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="351" column="10" selection-start-line="351" selection-start-column="10" selection-end-line="351" selection-end-column="10" />
+            <state relative-caret-position="457">
+              <caret line="367" column="71" lean-forward="true" selection-start-line="367" selection-start-column="71" selection-end-line="367" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#14765#14793#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/CieTokenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="267" column="58" selection-start-line="267" selection-start-column="58" selection-end-line="267" selection-end-column="58" />
+            <state relative-caret-position="3075">
+              <caret line="268" column="58" selection-start-line="268" selection-start-column="58" selection-end-line="268" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/ReadAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="255">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/LoggingInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="120">
               <caret line="17" column="39" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -115,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Stampa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4035">
+            <state relative-caret-position="3165">
               <caret line="271" column="58" selection-start-line="271" selection-start-column="54" selection-end-line="271" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -127,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="1080">
               <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
             </state>
           </provider>
@@ -168,7 +167,6 @@
       <find>Request request</find>
       <find>Request request =</find>
       <find>request</find>
-      <find>request</find>
       <find>bui</find>
       <find>bodyToString</find>
       <find>ReadAPI.bodyToString</find>
@@ -187,6 +185,7 @@
       <find>.BODY)</find>
       <find>joblist</find>
       <find>.BASIC</find>
+      <find>logging.setLevel(HttpLoggingInterceptor.Level.BODY);</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/src/main/java/com/example/myapplication</dir>
@@ -243,14 +242,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/LoggingInterceptor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/ReadAPI.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/CieTokenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Stampa.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/TokenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/QrReader.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/CieTokenActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/TokenActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -260,51 +259,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="PullprintingMobileApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/PullprintingMobileApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="PullprintingMobileApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/PullprintingMobileApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="PullprintingMobileApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Desktop/PullprintingMobileApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pullprinting" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
             <path>
               <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -335,6 +292,28 @@
               <item name="PullprintingMobileApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="PullprintingMobileApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="library" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PullprintingMobileApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/PullprintingMobileApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="PullprintingMobileApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/PullprintingMobileApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PullprintingMobileApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Desktop/PullprintingMobileApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -513,22 +492,22 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49923897" visible="true" weight="0.2735043" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4979253" visible="true" weight="0.2735043" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" sideWeight="0.50076103" side_tool="true" visible="true" weight="0.2735043" />
+      <window_info id="Build Variants" order="4" sideWeight="0.5020747" side_tool="true" visible="true" weight="0.2735043" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" sideWeight="0.4908425" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.6703297" weight="0.32959184" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.32857144" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50915754" side_tool="true" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.32967034" side_tool="true" visible="true" weight="0.2622449" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4969475" weight="0.2622449" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.496337" weight="0.2622449" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32959184" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -541,36 +520,16 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/AuthStateManager_CIE.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/ConnectionBuilderForTesting.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/MessageFragment.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Commons.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Printer_list.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/CustomAdapter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/RemainderBroadcast.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Model.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/CieAuth.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/AuthStateManager_CIE.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/ConnectionBuilderForTesting.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/MessageFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Configuration.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Commons.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Printer_list.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/CustomAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/RemainderBroadcast.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/Model.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/CieAuth.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/AuthModule/AppAuthGlideModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -689,33 +648,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/debug/java/eu/fbk/st/pullprinting/Model/Job.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/java/eu/fbk/st/pullprinting/Model/Job.java" />
     <entry file="file://$PROJECT_DIR$/PullprintingMobileApp.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/requestInspection/java/eu/fbk/st/pullprinting/CieAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/requestInspection/java/eu/fbk/st/pullprinting/CieTokenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/requestInspection/java/eu/fbk/st/pullprinting/CustomAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/requestInspection/java/eu/fbk/st/pullprinting/CieAuth.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/requestInspection/java/eu/fbk/st/pullprinting/CieTokenActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/requestInspection/java/eu/fbk/st/pullprinting/CustomAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -771,53 +710,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/ReadAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/LoggingInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Stampa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4035">
-          <caret line="271" column="58" selection-start-line="271" selection-start-column="54" selection-end-line="271" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/TokenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="11400">
           <caret line="843" column="58" selection-start-line="843" selection-start-column="54" selection-end-line="843" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -827,21 +722,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/CieTokenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="267" column="58" selection-start-line="267" selection-start-column="58" selection-end-line="267" selection-end-column="58" />
+        <state relative-caret-position="3075">
+          <caret line="268" column="58" selection-start-line="268" selection-start-column="58" selection-end-line="268" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/QrReader.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/ReadAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="351" column="10" selection-start-line="351" selection-start-column="10" selection-end-line="351" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14765#14793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/LoggingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Stampa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3165">
+          <caret line="271" column="58" selection-start-line="271" selection-start-column="54" selection-end-line="271" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/QrReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="367" column="71" lean-forward="true" selection-start-line="367" selection-start-column="71" selection-end-line="367" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
