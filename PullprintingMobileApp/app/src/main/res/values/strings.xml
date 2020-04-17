@@ -28,5 +28,13 @@
     <string name="title_activity_stampa_job">StampaJob</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <string name="base_url">pullprinting.fbk.eu</string>
+    <string name="spoolerName">FBK_Virtual_Spooler</string>
+    <string name="SecureSpoolerID">ce08a886-c2e5-8ec6-7e1a-f4150f1bd688</string>
+    <string name="SecureSpoolerName">FBK_Secure_Virtual_Spooler</string>
+    <string name="messaggioLavoroCompleto">I lavori sono stati mandati correttamente nella stampante selezionata.</string>
+    <string name="NORD_PP_ColorICT_model">TOSHIBA e-STUDIO4555C</string>
+    <string name="NORD_AMM_ColorCopier_model">ECOSYS P6230cdn</string>
+
 </resources>

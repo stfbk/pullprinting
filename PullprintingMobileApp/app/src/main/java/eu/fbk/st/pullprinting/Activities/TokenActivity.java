@@ -1,4 +1,4 @@
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -30,6 +30,8 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.support.v7.widget.Toolbar;
+
+import com.google.android.gms.common.internal.service.Common;
 
 import eu.fbk.st.pullprinting.Model.MessageFragment;
 import eu.fbk.st.pullprinting.Model.Model;
@@ -178,7 +180,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
             //System.out.println("response_message to show: "+response_stampa);
             AlertDiStampa(response_stampa);
         } catch (Exception e){
-            System.out.println("Exception occurred: "+e);
+            Log.d("Error", "Exception occurred: "+e);
         }
 
         /*if (response_stampa != "" && response_stampa != null) {
@@ -296,7 +298,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 String JobID = (json.getJSONArray("jobs").getJSONObject(i).getString("id"));
                 String stateOfJob = json.getJSONArray("jobs").getJSONObject(i).getJSONObject("uiState").getString("summary");
                 String jobDestination = json.getJSONArray("jobs").getJSONObject(i).getString("printerid");
-                if (stateOfJob.contentEquals("IN_PROGRESS") && jobDestination.contentEquals(Commons.SecureSpoolerID)) {
+                if (stateOfJob.contentEquals("IN_PROGRESS") && jobDestination.contentEquals(getString(R.string.SecureSpoolerID))) {
                     Model model = new Model();
                     model.setSelected(isSelect);
                     model.setJob(title + "\n" + ":_:" + JobID + ":_: \t" + " *SECURE*" );
@@ -452,7 +454,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 String template = "Access token expires at: %s";
                 accessTokenInfoView.setText(String.format(template,
                         DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss ZZ").print(expiresAt)));
-                System.out.println("accessTokenResponse: " + accessTokenResponse + " - expiresAt: "+String.format(template,
+                Log.d(TAG,"accessTokenResponse: " + accessTokenResponse + " - expiresAt: "+String.format(template,
                         DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss ZZ").print(expiresAt)));
             }
         }
@@ -849,7 +851,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
         //RequestBody body = RequestBody.create(mediaType, "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"" + printerId + "\"\r\n\r\n4f6b7646-f5de-6950-684d-e393434aff2e\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
         //status in progress added
 
-        RequestBody body = RequestBody.create(mediaType, "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"status\"\r\n\r\nIN_PROGRESS\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"printerid\"\r\n\r\n"+printerId+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"limit\"\r\n\r\n"+Commons.limit+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
+        RequestBody body = RequestBody.create(mediaType, "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"status\"\r\n\r\nIN_PROGRESS\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"printerid\"\r\n\r\n"+printerId+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"limit\"\r\n\r\n"+(R.integer.limit)+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
 
         Request request = new Request.Builder()
                 .url("https://www.google.com/cloudprint/jobs")
@@ -858,9 +860,8 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 .addHeader("X-CloudPrint-Proxy", "node-gcp")
                 .addHeader("Authorization", "OAuth " + authToken)
                 .addHeader("cache-control", "no-cache")
-                .addHeader("Postman-Token", "a7a08892-a007-4a02-85f0-88351dc02aa6")
                 .build();
-        System.out.println(ReadAPI.bodyToString(request));
+        Log.d(TAG, ReadAPI.bodyToString(request));
         return client.newCall(request).execute();
 
     }
@@ -951,7 +952,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
         // Setting Alert Dialog Title
         alertDialogBuilder.setTitle("Response di stampa");
         // Icon Of Alert Dialog
-        if (message.equals(Commons.messaggioLavoroCompleto))
+        if (message.equals(getString(R.string.messaggioLavoroCompleto)))
         {
             alertDialogBuilder.setIcon(R.drawable.complete);
         }
@@ -984,7 +985,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
         Double firstCopyTime= Commons.first_copy_map.get(Commons.acutalModel);
         Double speedCopy = Commons.copy_speed_map.get(Commons.acutalModel);
 
-        int numeroPagine=Commons.acutalPageNumberBeforePrint;
+        int numeroPagine=(Commons.acutalPageNumberBeforePrint);
 
         //System.out.println("numeroPagine: "+numeroPagine);
         //System.out.println("copy_speed_map: "+Commons.copy_speed_map.get(Commons.acutalModel));
@@ -1013,7 +1014,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     .url("https://"+getString(R.string.base_url) + "/deletejob?access_token="+accessToken+"&jobid="+jobID)
                     .post(formBody)
                     .build();
-            System.out.println(ReadAPI.bodyToString(request));
+            Log.d(TAG, ReadAPI.bodyToString(request));
             return client.newCall(request).execute();
         }
     }
@@ -1084,7 +1085,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     List<String> list = new ArrayList<String>();
                     JSONArray array = obj.getJSONArray("printer");
                     for(int i = 0 ; i < array.length() ; i++){
-                        if(array.getJSONObject(i).getString("name").toString().equals(Commons.spoolerName)) {
+                        if(array.getJSONObject(i).getString("name").toString().equals(getString(R.string.spoolerName))) {
                             Commons.spoolerID=array.getJSONObject(i).getString("id");
                             //System.out.println("spoolerID: "+Commons.spoolerID);
                         }
@@ -1124,7 +1125,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     List<String> list = new ArrayList<String>();
                     JSONArray array = obj.getJSONArray("printer");
                     for(int i = 0 ; i < array.length() ; i++){
-                        if(array.getJSONObject(i).getString("name").toString().equals(Commons.SecureSpoolerName)) {
+                        if(array.getJSONObject(i).getString("name").toString().equals(getString(R.string.SecureSpoolerName))) {
                             Commons.SecureSpoolerID=array.getJSONObject(i).getString("id");
                             //System.out.println("SecureSpoolerID: "+Commons.SecureSpoolerID);
                         }
@@ -1152,9 +1153,8 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 .url("https://"+getString(R.string.base_url) + "/list_printer?access_token=" + authToken) //prima era printer se non stampanti admin
                 .get()
                 .addHeader("cache-control", "no-cache")
-                .addHeader("Postman-Token", "16e12424-8181-45da-9b65-95f8b7d31d8c")
                 .build();
-        System.out.println(ReadAPI.bodyToString(request));
+        Log.d(TAG, ReadAPI.bodyToString(request));
         //Response response = client.newCall(request).execute();
         return client.newCall(request).execute();
     }
@@ -1250,7 +1250,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 //System.out.println("printCode: "+printCode);
                 if (jobList.size() > 0) {
                     if (printCode == 200) {
-                        response_message = Commons.messaggioLavoroCompleto;
+                        response_message = getString(R.string.messaggioLavoroCompleto);
                     } else {
                         response_message = responsePrint.body().string();
                     }
@@ -1286,7 +1286,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 .addHeader("Connection", "keep-alive")
                 .build();
 
-        System.out.println(ReadAPI.bodyToString(request));
+        Log.d(TAG, ReadAPI.bodyToString(request));
         return client.newCall(request).execute();
     }
 
@@ -1382,7 +1382,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 .get()
                 .build();
         //Response response = client.newCall(request).execute();
-        System.out.println(ReadAPI.bodyToString(request));
+        Log.d(TAG, ReadAPI.bodyToString(request));
         return client.newCall(request).execute();
     }
 
@@ -1412,7 +1412,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
 
     private void jobCount(String accessToken, String s, AuthorizationException ex) {
         AuthState state = mStateManager.getCurrent();
-        Commons.acutalPageNumberBeforePrint=0;
+        (Commons.acutalPageNumberBeforePrint)=0;
 
         if (state.getRefreshToken() == null || state.getAccessToken() == null || state.getAccessTokenExpirationTime() < System.currentTimeMillis()) {
             refreshAccessToken();
@@ -1458,7 +1458,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                         JSONObject json = new JSONObject(response);
                         //System.out.println("RESPONSE COUNT JOB FUNCTION1: " + response);
                         if (json.getJSONArray("jobs").getJSONObject(i).getJSONObject("uiState").getString("summary").equals("IN_PROGRESS")) {
-                           Commons.acutalPageNumberBeforePrint += Integer.parseInt(json.getJSONArray("jobs").getJSONObject(i).getString("numberOfPages"));
+                            Commons.acutalPageNumberBeforePrint += Integer.parseInt(json.getJSONArray("jobs").getJSONObject(i).getString("numberOfPages"));
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();

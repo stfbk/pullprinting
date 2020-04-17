@@ -1,4 +1,4 @@
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.Button;
 
 import eu.fbk.st.pullprinting.R;
-import eu.fbk.st.pullprinting.*;
 
 import net.openid.appauth.AppAuthConfiguration;
 import net.openid.appauth.AuthState;
@@ -28,7 +27,6 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import eu.fbk.st.pullprinting.AuthModule.AuthStateManager;
 import eu.fbk.st.pullprinting.Configuration.Configuration;
-import eu.fbk.st.pullprinting.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -215,8 +213,8 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtras(data.getExtras());
         Bundle bundle = intent.getExtras();
         if(bundle!=null){
-            for (String key : bundle.keySet())
-                System.out.println(bundle.get(key)!=null ? bundle.get(key) : "NULL");
+            //for (String key : bundle.keySet())
+                //System.out.println(bundle.get(key)!=null ? bundle.get(key) : "NULL");
         }
         //System.out.println("DATA_MAIN ACTIVITY: "+data);
         startActivity(intent);

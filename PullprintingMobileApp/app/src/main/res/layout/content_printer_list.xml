@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="eu.fbk.st.pullprinting.Printer_list"
+    tools:context="eu.fbk.st.pullprinting.Activities.Printer_list"
     tools:showIn="@layout/activity_printer_list">
 
     <ListView
