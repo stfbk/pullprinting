@@ -59,23 +59,23 @@ app.get('/', function (req, res) {
 app.get('/list_printer', (req, res) => {
     try {
         //console.log(Object.keys(req.query).length);
-        let accessToken = req.query.access_token;
-        accessToken = utf8.encode(accessToken);
+        //let accessToken = req.query.access_token;
+        //accessToken = utf8.encode(accessToken);
         //let refreshToken = req.query.refresh_token;
         /*if (!isValidToken(accessToken)) {
             console.log("invalid accessToken");
             res.sendStatus(403);
         }
-        else*/ {
+        else*/ 
             console.log("-------------LOOK----------------");
-            console.log(accessToken);
+            //console.log(accessToken);
 
-            var printClientUser = new CloudPrint({
+            /*var printClientUser = new CloudPrint({
                 clientId: "306547292588-9nsde993lvbicbov5tt6olpeu5hbm5jv.apps.googleusercontent.com",
                 clientSecret: "ODzxsWa02b3pMeDAq5LZvAg_",
                 accessToken: accessToken
                 //refreshToken: refreshToken
-            });
+            });*/
 
             var printClientAdmin = new CloudPrint({
                 clientId: "306547292588-9nsde993lvbicbov5tt6olpeu5hbm5jv.apps.googleusercontent.com",
@@ -83,33 +83,15 @@ app.get('/list_printer', (req, res) => {
                 accessToken: adminAccessToken,
                 refreshToken: adminRefreshToken
             });
-            console.log("-------check valid_user---------");
-            //if printClientUser is right user admin token for showing printer
-
-
-            printClientUser.getMail()
-                .then(function (domain) {
-                    //res.send(domain);
-                    console.log(domain);
-                    if (!isValidDomain(domain)) {
-                        res.status(401);
-                        res.send('User not Authorized, use an FBK account');
-                    } else {
-                        console.log("La MAIL è FBK.EU");
-                        console.log("-------LIST PRINTER---------");
-                        printClientAdmin.getPrinters()
-                            .then(function (printers) {
-                                res.send(printers);
+            console.log("-------check valid_user---------");    
+            console.log("-------LIST PRINTER---------");
+                printClientAdmin.getPrinters()
+                    .then(function (printers) {
+                            res.send(printers);
                                 console.log(printers);
                             }).catch(e => {
                                 res.sendStatus(403);
-                            });
-                    }
-                })
-                .catch(e => {
-                    res.sendStatus(403);
-                });
-        }
+                            });                
     }
     catch (e) {
         res.sendStatus(500);
