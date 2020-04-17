@@ -272,7 +272,7 @@ public class Stampa extends AppCompatActivity {
         OkHttpClient client = new OkHttpClient.Builder()
                 .addInterceptor(logging)
                 .build();        Request request = new Request.Builder()
-                .url("https://"+getString(R.string.base_url) + "/list_printer?access_token=" + authToken) //prima era printer se non stampanti admin
+                .url("https://"+getString(R.string.base_url) + "/list_printer") //prima era printer se non stampanti admin
                 .get()
                 .addHeader("cache-control", "no-cache")
                 .build();

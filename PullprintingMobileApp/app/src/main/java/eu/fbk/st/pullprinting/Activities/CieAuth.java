@@ -1,10 +1,16 @@
 package eu.fbk.st.pullprinting.Activities;
 
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.MainThread;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.customtabs.CustomTabsClient;
+import android.support.customtabs.CustomTabsIntent;
+import android.support.customtabs.CustomTabsServiceConnection;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -149,7 +155,10 @@ public class CieAuth extends AppCompatActivity {
                 .build();
         System.err.println("StartRequestLetturaCie:"+ new Timestamp(System.currentTimeMillis()));
 
-        mAuthService.performAuthorizationRequest(
+
+        //AGGIUNTE CIEAUTH TEST
+        //prima
+        /* mAuthService.performAuthorizationRequest(
                 authRequest,
                 CieTokenActivity.createPostAuthorizationIntent(
                         this,
@@ -157,7 +166,28 @@ public class CieAuth extends AppCompatActivity {
                         null,
                         mConfigurationApp.getClientSecret()),
                 mAuthService.createCustomTabsIntentBuilder()
-                        .build());
+                        .build());*/
+         //dopo
+        /*String url = "https://am-test.smartcommunitylab.it/aac/eauth/authorize/google?redirect_uri=com.googleusercontent.apps.641468808636-roej63drmm2vaude7n444oj21afbphel%3A%2Foauth2redirect&client_id=e9610874-1548-4311-a663-472ba9c1ce33&response_type=code&state=2OtGz5h94cnHuJ8EziwleA&scope=openid%20operation.confirmed";
+        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+        CustomTabsIntent customTabsIntent = builder.build();
+        customTabsIntent.launchUrl(this, Uri.parse(url));*/
+    }
+
+
+    void launchTab(Context context, Uri uri){
+        final CustomTabsServiceConnection connection = new CustomTabsServiceConnection() {
+            @Override
+            public void onCustomTabsServiceConnected(ComponentName componentName, CustomTabsClient client) {
+                final CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+                final CustomTabsIntent intent = builder.build();
+                client.warmup(0L); // This prevents backgrounding after redirection
+                intent.launchUrl(context, uri);
+            }
+            @Override
+            public void onServiceDisconnected(ComponentName name) {}
+        };
+        CustomTabsClient.bindCustomTabsService(context, "com.android.chrome", connection);
     }
 
     private AuthorizationService createAuthorizationService() {

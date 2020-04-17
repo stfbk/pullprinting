@@ -6,12 +6,14 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.MainThread;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.WorkerThread;
+import android.support.customtabs.CustomTabsIntent;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
@@ -1150,7 +1152,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 .build();
 
         Request request = new Request.Builder()
-                .url("https://"+getString(R.string.base_url) + "/list_printer?access_token=" + authToken) //prima era printer se non stampanti admin
+                .url("https://"+getString(R.string.base_url) + "/list_printer") //prima era printer se non stampanti admin
                 .get()
                 .addHeader("cache-control", "no-cache")
                 .build();
@@ -1472,5 +1474,14 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                 showSnackbar("Fetching Job Count failed");
             }
         });
+    }
+
+
+    public void testCustomTab(View view){
+        String url = "https://idp-ipzs.fbk.eu/CustomTab?OpId=4601772763715634&Time=1583488159489&SP=PullPrinting&IdP=Smart%20Community&Text_Op=Inserisci+il+PIN+per+accedere+a+PullPrinting+tramite+Smart+Community&certRequest=true&nextURL=https://am-test.smartcommunitylab.it/aac/mobile2factor-callback/cie?execution=e2s1";
+        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+        CustomTabsIntent customTabsIntent = builder.build();
+        customTabsIntent.launchUrl(this, Uri.parse(url));
+
     }
 }
