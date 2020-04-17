@@ -14,30 +14,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="eu.fbk.st.pullprinting.CieTokenActivity"
+            android:name="eu.fbk.st.pullprinting.Activities.CieTokenActivity"
             android:label="CieTokenActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name="eu.fbk.st.pullprinting.CieAuth"
+            android:name="eu.fbk.st.pullprinting.Activities.CieAuth"
             android:label="@string/title_activity_cie_auth"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="eu.fbk.st.pullprinting.Printer_list"
+            android:name="eu.fbk.st.pullprinting.Activities.Printer_list"
             android:label="Lista Stampanti"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="eu.fbk.st.pullprinting.QrReader"
+            android:name="eu.fbk.st.pullprinting.Activities.QrReader"
             android:label="QrCode Reader" />
         <activity
-            android:name="eu.fbk.st.pullprinting.Stampa"
+            android:name="eu.fbk.st.pullprinting.Activities.Stampa"
             android:label="@string/title_activity_stampa"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="eu.fbk.st.pullprinting.TokenActivity"
+            android:name="eu.fbk.st.pullprinting.Activities.TokenActivity"
             android:label="FBK Pull Printing"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name="eu.fbk.st.pullprinting.MainActivity"
+            android:name="eu.fbk.st.pullprinting.Activities.MainActivity"
             android:label="FBK Pull Printing"
             android:theme="@style/AppTheme.NoActionBar">
 

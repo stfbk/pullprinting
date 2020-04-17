@@ -1,4 +1,4 @@
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +18,6 @@ import org.json.JSONException;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import eu.fbk.st.pullprinting.*;
 
 public class Printer_list extends AppCompatActivity {
 

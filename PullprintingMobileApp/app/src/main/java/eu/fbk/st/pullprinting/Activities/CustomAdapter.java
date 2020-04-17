@@ -1,5 +1,6 @@
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,7 +37,7 @@ public class CustomAdapter extends BaseAdapter {
                 }
                 }
                 catch (Exception e){
-                    System.out.println("Exception occurred: "+e);
+                    Log.d("Error", "Exception occurred: "+e);
                 }
                 String job_splittato = element.getJob().split(":_:")[1];
                 job_selezionati.add(job_splittato);
@@ -118,7 +119,7 @@ public class CustomAdapter extends BaseAdapter {
                         }
                     }
                     catch (Exception e){
-                        System.out.println("Exception occurred: "+e);
+                        Log.d("Error", "Exception occurred: "+e);
                     }
 
                     String job_splittato = modelArrayList.get(pos).getJob().split(":_:")[1];
@@ -141,7 +142,7 @@ public class CustomAdapter extends BaseAdapter {
                         }
                     }
                     catch (Exception e){
-                        System.out.println("Exception occurred: "+e);
+                        Log.d("Error", "Exception occurred: "+e);
                     }
                     job_selezionati.add(job_splittato);
                 }

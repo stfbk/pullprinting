@@ -1,4 +1,4 @@
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,7 +31,6 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import eu.fbk.st.pullprinting.AuthModule.AuthStateManager_CIE;
 import eu.fbk.st.pullprinting.Configuration.ConfigurationCIE;
-import eu.fbk.st.pullprinting.*;
 
 
 public class CieAuth extends AppCompatActivity {

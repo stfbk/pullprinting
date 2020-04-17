@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -53,7 +53,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import eu.fbk.st.pullprinting.Configuration.ConfigurationCIE;
-import eu.fbk.st.pullprinting.Utilities.Commons;
 import eu.fbk.st.pullprinting.Utilities.ReadAPI;
 import okhttp3.FormBody;
 import okhttp3.MediaType;
@@ -61,7 +60,6 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
-import eu.fbk.st.pullprinting.*;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 /**
@@ -259,7 +257,7 @@ public class CieTokenActivity extends AppCompatActivity {
                 .addHeader("Accept-Encoding", "gzip, deflate")
                 .addHeader("Connection", "keep-alive")
                 .build();
-        System.out.println(ReadAPI.bodyToString(request));
+        Log.d(TAG, ReadAPI.bodyToString(request));
         return client.newCall(request).execute();
     }
 
@@ -269,7 +267,8 @@ public class CieTokenActivity extends AppCompatActivity {
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder()
                 .addInterceptor(logging)
-                .build();        //System.out.println("code: "+code);
+                .build();
+        //System.out.println("code: "+code);
         //System.out.println("state: "+state);
         RequestBody formBody = new FormBody.Builder()
                 .add("", "")
@@ -278,9 +277,9 @@ public class CieTokenActivity extends AppCompatActivity {
                 .url("https://am-test.smartcommunitylab.it/aac/oauth/token?client_id=e9610874-1548-4311-a663-472ba9c1ce33&client_secret=383ef7c1-7718-4265-8108-f098b769c5e9&grant_type=authorization_code&code="+code+"&state="+state+"&redirect_uri=com.googleusercontent.apps.641468808636-roej63drmm2vaude7n444oj21afbphel:/oauth2redirect")
                 .post(formBody)
                 .addHeader("cache-control", "no-cache")
-                //.addHeader("Postman-Token", "1b20ce77-6b5f-42a5-a1b4-877bd279de02")
                 .build();
-        System.out.println(ReadAPI.bodyToString(request));
+
+        Log.d(TAG, ReadAPI.bodyToString(request));
         return client.newCall(request).execute();
     }
 

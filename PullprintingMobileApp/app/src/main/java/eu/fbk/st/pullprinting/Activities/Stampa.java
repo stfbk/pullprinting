@@ -1,4 +1,4 @@
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -57,7 +57,6 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
-import eu.fbk.st.pullprinting.*;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 /**
@@ -276,10 +275,9 @@ public class Stampa extends AppCompatActivity {
                 .url("https://"+getString(R.string.base_url) + "/list_printer?access_token=" + authToken) //prima era printer se non stampanti admin
                 .get()
                 .addHeader("cache-control", "no-cache")
-                .addHeader("Postman-Token", "16e12424-8181-45da-9b65-95f8b7d31d8c")
                 .build();
 
-        System.out.println(ReadAPI.bodyToString(request));
+        Log.d(TAG, ReadAPI.bodyToString(request));
         //Response response = client.newCall(request).execute();
         return client.newCall(request).execute();
     }
@@ -398,7 +396,7 @@ public class Stampa extends AppCompatActivity {
                 .addHeader("Connection", "keep-alive")
                 .build();
 
-        System.out.println(ReadAPI.bodyToString(request));
+        Log.d(TAG, ReadAPI.bodyToString(request));
         return client.newCall(request).execute();
     }
 

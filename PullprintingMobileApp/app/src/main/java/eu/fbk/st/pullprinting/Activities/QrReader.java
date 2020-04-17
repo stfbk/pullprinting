@@ -1,4 +1,4 @@
-package eu.fbk.st.pullprinting;
+package eu.fbk.st.pullprinting.Activities;
 
 import android.Manifest;
 import android.content.Context;
@@ -42,12 +42,9 @@ import java.util.concurrent.atomic.AtomicReference;
 
 import eu.fbk.st.pullprinting.AuthModule.AuthStateManager;
 import eu.fbk.st.pullprinting.Configuration.Configuration;
-import eu.fbk.st.pullprinting.Utilities.Commons;
-import eu.fbk.st.pullprinting.Utilities.ReadAPI;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import eu.fbk.st.pullprinting.*;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 public class QrReader extends AppCompatActivity {
@@ -356,7 +353,6 @@ public class QrReader extends AppCompatActivity {
                 .url("https://"+ getString(R.string.base_url) + "/list_printer?access_token=" + authToken) //prima era printer se non stampanti admin
                 .get()
                 .addHeader("cache-control", "no-cache")
-                .addHeader("Postman-Token", "16e12424-8181-45da-9b65-95f8b7d31d8c")
                 .build();
         //Response response = client.newCall(request).execute();
 
