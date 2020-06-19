@@ -72,6 +72,8 @@ public class CieTokenActivity extends AppCompatActivity {
     private static final String EXTRA_AUTH_SERVICE_DISCOVERY = "authServiceDiscovery";
     private static final String EXTRA_CLIENT_SECRET = "clientSecret";
     private static final int BUFFER_SIZE = 1024;
+    private static final String EXTRA_AUTH_STATE = "authState";
+
 
     private static AuthState mAuthState;
     private AuthorizationService mAuthService;
@@ -320,15 +322,16 @@ public class CieTokenActivity extends AppCompatActivity {
              @Nullable String clientSecret) {
 
 
-        Intent intent = new Intent(context, CieTokenActivity.class); //TokenActivity.class -->torna alla token activty ma solo dopo aver passato le stampanti e i tutti i prametri necessari per chiamare (qui) la funzione stampa
-        if (discoveryDoc != null) {
-            intent.putExtra(EXTRA_AUTH_SERVICE_DISCOVERY, discoveryDoc.docJson.toString());
-        }
+            Intent intent = new Intent(context, CieTokenActivity.class); //TokenActivity.class -->torna alla token activty ma solo dopo aver passato le stampanti e i tutti i prametri necessari per chiamare (qui) la funzione stampa
 
-        if (clientSecret != null) {
-            intent.putExtra(EXTRA_CLIENT_SECRET, clientSecret);
-        }
+            if (discoveryDoc != null) {
+                intent.putExtra(EXTRA_AUTH_SERVICE_DISCOVERY, discoveryDoc.docJson.toString());
+            }
 
-        return PendingIntent.getActivity(context, request.hashCode(), intent, 0);
+            if (clientSecret != null) {
+                intent.putExtra(EXTRA_CLIENT_SECRET, clientSecret);
+            }
+
+            return PendingIntent.getActivity(context, request.hashCode(), intent, 0);
     }
 }

@@ -957,7 +957,7 @@ public class AuthorizationRequest {
         this.codeVerifier = codeVerifier;
         this.codeVerifierChallenge = codeVerifierChallenge;
         this.codeVerifierChallengeMethod = codeVerifierChallengeMethod;
-        this.responseMode = responseMode;
+        this.responseMode = responseMode; //change responseMode
     }
 
     /**

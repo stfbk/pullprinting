@@ -155,7 +155,8 @@ public class CustomTabManager {
             session.mayLaunchUrl(possibleUris[0], null, additionalUris);
         }
 
-        return session;
+        //return null;
+        return session; //return null --> funziona ma da testare!
     }
 
     /**

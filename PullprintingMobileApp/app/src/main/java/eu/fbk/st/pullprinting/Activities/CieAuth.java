@@ -17,6 +17,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
 
 import eu.fbk.st.pullprinting.R;
 
@@ -33,6 +35,7 @@ import net.openid.appauth.browser.BrowserWhitelist;
 import net.openid.appauth.browser.VersionedBrowserMatcher;
 
 import java.sql.Timestamp;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 
 import eu.fbk.st.pullprinting.AuthModule.AuthStateManager_CIE;
@@ -40,6 +43,12 @@ import eu.fbk.st.pullprinting.Configuration.ConfigurationCIE;
 
 
 public class CieAuth extends AppCompatActivity {
+
+
+    private CountDownLatch mAuthIntentLatch = new CountDownLatch(1);
+    private final AtomicReference<CustomTabsIntent> mAuthIntent = new AtomicReference<>();
+    private final AtomicReference<AuthorizationRequest> mAuthRequest = new AtomicReference<>();
+
 
     private static final String TAG = "CIEAUTH";
     private AuthStateManager_CIE mStateManager_CIE;
@@ -133,17 +142,16 @@ public class CieAuth extends AppCompatActivity {
 
     private void initializeAuthRequest() {
         createAuthRequest();
-        //warmUpBrowser();
+        warmUpBrowser();
     }
-
-   /* private void warmUpBrowser() {
+    private void warmUpBrowser() {
         mAuthIntentLatch = new CountDownLatch(1);
         Log.i(TAG, "Warming up browser instance for auth request");
-        CustomTabsIntent.Builder intentBuilder =
-                mAuthService.createCustomTabsIntentBuilder(mAuthRequest.get().toUri());
-        mAuthIntent.set(intentBuilder.build());
+        //CustomTabsIntent.Builder intentBuilder =
+        //        mAuthService.createCustomTabsIntentBuilder(mAuthRequest.get().toUri());
+        //mAuthIntent.set(intentBuilder.build());
         mAuthIntentLatch.countDown();
-    }*/
+    }
 
     private void createAuthRequest() {
         AuthorizationRequest authRequest = new AuthorizationRequest.Builder(
@@ -158,7 +166,7 @@ public class CieAuth extends AppCompatActivity {
 
         //AGGIUNTE CIEAUTH TEST
         //prima
-        /* mAuthService.performAuthorizationRequest(
+         mAuthService.performAuthorizationRequest(
                 authRequest,
                 CieTokenActivity.createPostAuthorizationIntent(
                         this,
@@ -166,12 +174,21 @@ public class CieAuth extends AppCompatActivity {
                         null,
                         mConfigurationApp.getClientSecret()),
                 mAuthService.createCustomTabsIntentBuilder()
-                        .build());*/
+                        .build());
          //dopo
         /*String url = "https://am-test.smartcommunitylab.it/aac/eauth/authorize/google?redirect_uri=com.googleusercontent.apps.641468808636-roej63drmm2vaude7n444oj21afbphel%3A%2Foauth2redirect&client_id=e9610874-1548-4311-a663-472ba9c1ce33&response_type=code&state=2OtGz5h94cnHuJ8EziwleA&scope=openid%20operation.confirmed";
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-        CustomTabsIntent customTabsIntent = builder.build();
-        customTabsIntent.launchUrl(this, Uri.parse(url));*/
+        //CustomTabsIntent customTabsIntent = builder.build();
+        //customTabsIntent.launchUrl(this, Uri.parse(url));
+
+        mAuthService.performAuthorizationRequest(
+                authRequest,
+                CieTokenActivity.createPostAuthorizationIntent(
+                        this,
+                        authRequest,
+                        null,
+                        mConfigurationApp.getClientSecret()),
+                        builder.build());*/
     }
 
 
