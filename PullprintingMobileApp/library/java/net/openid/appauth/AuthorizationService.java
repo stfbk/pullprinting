@@ -14,9 +14,11 @@
 
 package net.openid.appauth;
 
+
 import static net.openid.appauth.Preconditions.checkNotNull;
 
 import android.annotation.TargetApi;
+import android.app.Activity;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -375,6 +377,7 @@ public class AuthorizationService {
             throw new ActivityNotFoundException();
         }
 
+
         Uri requestUri = request.toUri();
         Intent intent;
         if (mBrowser.useCustomTab) {
@@ -382,8 +385,14 @@ public class AuthorizationService {
         } else {
             intent = new Intent(Intent.ACTION_VIEW);
         }
+
         intent.setPackage(mBrowser.packageName);
         intent.setData(requestUri);
+
+        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+        CustomTabsIntent customIntent = builder.build();
+        customIntent.launchUrl(mContext, Uri.parse(requestUri.toString()));
+
 
         Logger.debug("Using %s as browser for auth, custom tab = %s",
                 intent.getPackage(),
@@ -391,6 +400,7 @@ public class AuthorizationService {
 
         Logger.debug("Initiating authorization request to %s",
                 request.configuration.authorizationEndpoint);
+
 
         return intent;
     }

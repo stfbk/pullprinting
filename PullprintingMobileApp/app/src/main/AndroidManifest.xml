@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,11 +17,27 @@
         <activity
             android:name="eu.fbk.st.pullprinting.Activities.CieTokenActivity"
             android:label="CieTokenActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="am-test.smartcommunitylab.it"
+                    android:path="//aac/eauth/authorize/google"
+                    android:scheme="https" />
+                <data
+                    android:host="idp-ipzs.fbk.eu"
+                    android:path="/CustomTab"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="eu.fbk.st.pullprinting.Activities.CieAuth"
             android:label="@string/title_activity_cie_auth"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
         <activity
             android:name="eu.fbk.st.pullprinting.Activities.Printer_list"
             android:label="Lista Stampanti"
@@ -35,7 +52,12 @@
         <activity
             android:name="eu.fbk.st.pullprinting.Activities.TokenActivity"
             android:label="FBK Pull Printing"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="eu.fbk.st.pullprinting.Activities.webView"
+            android:label="webView"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name="eu.fbk.st.pullprinting.Activities.MainActivity"
             android:label="FBK Pull Printing"
@@ -47,27 +69,64 @@
             </intent-filter>
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <!-- Accepts URIs that begin with "example://gizmos” -->
-                <data android:scheme="https"
+
+                <data
+                    android:host="am-test.smartcommunitylab.it"
+                    android:path="//aac/eauth/authorize/google"
+                    android:scheme="https" />
+                <data
                     android:host="idp-ipzs.fbk.eu"
-                    android:path="/CustomTab"/>
+                    android:path="/CustomTab"
+                    android:scheme="https" />
+                <!-- android:host="am-test.smartcommunitylab.it"
+                    android:path="/aac/eauth/authorize/google"/>-->
             </intent-filter>
         </activity>
+
 
         <activity android:name="net.openid.appauth.RedirectUriReceiverActivity">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="https"
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
                     android:host="appauth.demo-app.io"
-                    android:path="/oauth2redirect"/>
+                    android:path="/oauth2redirect"
+                    android:scheme="https" />
+
+                <data
+                    android:host="idp-ipzs.fbk.eu"
+                    android:path="/CustomTab"
+                    android:scheme="https" />
             </intent-filter>
         </activity>
 
-        <receiver android:name="eu.fbk.st.pullprinting.Utilities.RemainderBroadcast"/>
+        <activity
+            android:name="net.openid.appauth.AuthorizationService"
+            android:label="AuthorizationService"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="am-test.smartcommunitylab.it"
+                    android:path="//aac/eauth/authorize/google"
+                    android:scheme="https" />
+                <data
+                    android:host="idp-ipzs.fbk.eu"
+                    android:path="/CustomTab"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+
+        <receiver android:name="eu.fbk.st.pullprinting.Utilities.RemainderBroadcast" />
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"

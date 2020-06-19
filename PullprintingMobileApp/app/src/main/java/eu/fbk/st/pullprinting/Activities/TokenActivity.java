@@ -1478,7 +1478,8 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
 
 
     public void testCustomTab(View view){
-        String url = "https://idp-ipzs.fbk.eu/CustomTab?OpId=4601772763715634&Time=1583488159489&SP=PullPrinting&IdP=Smart%20Community&Text_Op=Inserisci+il+PIN+per+accedere+a+PullPrinting+tramite+Smart+Community&certRequest=true&nextURL=https://am-test.smartcommunitylab.it/aac/mobile2factor-callback/cie?execution=e2s1";
+        String url = "https://am-test.smartcommunitylab.it/aac/eauth/authorize/google?redirect_uri=com.googleusercontent.apps.641468808636-roej63drmm2vaude7n444oj21afbphel%3A%2Foauth2redirect&client_id=e9610874-1548-4311-a663-472ba9c1ce33&response_type=code&state=G9naiYshNwNhI5N9fS364A&scope=openid%20operation.confirmed&code_challenge=9KtceW5_78R6e9zhve-H60TX_V84t021SV1b1dLjCOM&code_challenge_method=S256";
+        //String url = "https://idp-ipzs.fbk.eu/CustomTab?OpId=4601772763715634&Time=1583488159489&SP=PullPrinting&IdP=Smart%20Community&Text_Op=Inserisci+il+PIN+per+accedere+a+PullPrinting+tramite+Smart+Community&certRequest=true&nextURL=https://am-test.smartcommunitylab.it/aac/mobile2factor-callback/cie?execution=e2s1";
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
         CustomTabsIntent customTabsIntent = builder.build();
         customTabsIntent.launchUrl(this, Uri.parse(url));
