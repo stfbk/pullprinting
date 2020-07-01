@@ -76,6 +76,8 @@ public class AuthorizationService {
 
     private boolean mDisposed = false;
 
+
+    public static boolean cieAuth=false;
     /**
      * Creates an AuthorizationService instance, using the
      * {@link AppAuthConfiguration#DEFAULT default configuration}. Note that
@@ -389,10 +391,18 @@ public class AuthorizationService {
         intent.setPackage(mBrowser.packageName);
         intent.setData(requestUri);
 
-        CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
-        CustomTabsIntent customIntent = builder.build();
-        customIntent.launchUrl(mContext, Uri.parse(requestUri.toString()));
 
+
+        if(cieAuth==true) {
+            cieAuth=false;
+
+            CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
+            CustomTabsIntent customIntent = builder.build();
+            //customIntent.launchUrl(mContext, Uri.parse(requestUri.toString()));
+            customIntent.launchUrl(mContext, Uri.parse("https://am-test.smartcommunitylab.it"));
+            customIntent.launchUrl(mContext, Uri.parse(requestUri.toString()));
+
+        }
 
         Logger.debug("Using %s as browser for auth, custom tab = %s",
                 intent.getPackage(),

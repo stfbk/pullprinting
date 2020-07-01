@@ -53,10 +53,6 @@
             android:name="eu.fbk.st.pullprinting.Activities.TokenActivity"
             android:label="FBK Pull Printing"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="eu.fbk.st.pullprinting.Activities.webView"
-            android:label="webView"
-            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name="eu.fbk.st.pullprinting.Activities.MainActivity"
@@ -89,10 +85,10 @@
 
         <activity android:name="net.openid.appauth.RedirectUriReceiverActivity">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+                <!--<action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.BROWSABLE" />-->
 
                 <data
                     android:host="appauth.demo-app.io"

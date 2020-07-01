@@ -20,6 +20,7 @@
         tools:ignore="MissingConstraints">
 
         <TextView
+            android:layout_marginTop="70px"
             android:id="@+id/loading_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
