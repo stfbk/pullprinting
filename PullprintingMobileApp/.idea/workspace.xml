@@ -80,11 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="393" column="75" lean-forward="true" selection-start-line="391" selection-start-column="7" selection-end-line="393" selection-end-column="75" />
+            <state relative-caret-position="187">
+              <caret line="272" selection-start-line="272" selection-end-line="272" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,53 +93,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Printer_list.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="208" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="224">
+              <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="30" />
+            <state relative-caret-position="233">
+              <caret line="1360" column="10" selection-start-line="1360" selection-start-column="10" selection-end-line="1360" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Configuration/ConfigurationCIE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3630">
-              <caret line="294" column="45" selection-start-line="294" selection-start-column="45" selection-end-line="294" selection-end-column="45" />
-              <folding>
-                <element signature="e#3258#3259#0" expanded="true" />
-                <element signature="e#3290#3291#0" expanded="true" />
-                <element signature="e#3329#3330#0" expanded="true" />
-                <element signature="e#3365#3366#0" expanded="true" />
-                <element signature="e#3411#3412#0" expanded="true" />
-                <element signature="e#3440#3441#0" expanded="true" />
-                <element signature="e#3488#3489#0" expanded="true" />
-                <element signature="e#3523#3524#0" expanded="true" />
-                <element signature="e#3573#3574#0" expanded="true" />
-                <element signature="e#3609#3610#0" expanded="true" />
-                <element signature="e#3662#3663#0" expanded="true" />
-                <element signature="e#3701#3702#0" expanded="true" />
-                <element signature="e#3755#3756#0" expanded="true" />
-                <element signature="e#3795#3796#0" expanded="true" />
-                <element signature="e#3856#3857#0" expanded="true" />
-                <element signature="e#3903#3904#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,24 +116,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="229">
+              <caret line="169" column="42" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="42" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Instrumentation.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2385">
-              <caret line="239" column="16" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Activity.class">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -186,6 +140,46 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2085">
+              <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationServiceConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1905">
+              <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -201,48 +195,47 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>customta</find>
-      <find>.launch</find>
-      <find>launchTab</find>
-      <find>add</find>
-      <find>new intent</find>
-      <find>mauthrequest</find>
-      <find>AuthorizationRequest</find>
-      <find>warmUpBrowser</find>
-      <find>mAuthIntent</find>
-      <find>mAuthRequest</find>
-      <find>doauth</find>
-      <find>mAuthIntentLatch</find>
-      <find>json</find>
+      <find>aggiorna</find>
+      <find>alertdistampa</find>
+      <find>.chrome</find>
+      <find>nessun</find>
+      <find>startac</find>
+      <find>chr</find>
+      <find>chrom</find>
+      <find>com.android.browser</find>
+      <find>startactiv</find>
+      <find>brows</find>
+      <find>chrome</find>
+      <find>startact</find>
       <find>return intent</find>
-      <find>.putex</find>
-      <find>a</find>
-      <find>intent</find>
-      <find>uri.parse</find>
-      <find>uriStr</find>
-      <find>warmup</find>
-      <find>newsessi</find>
-      <find>session</find>
-      <find>&quot;</find>
-      <find>mayl</find>
-      <find>android.content.Intent</find>
-      <find>android.intent.action.VIEW</find>
-      <find>setpac</find>
-      <find>packa</find>
+      <find>aut</find>
+      <find>return int</find>
+      <find>prepareAuthorizationRequestIntent</find>
+      <find>performAuthorizationRequest</find>
       <find>customtab</find>
+      <find>custom</find>
+      <find>net.openid.appauth.AuthorizationService</find>
+      <find>authorizationservice</find>
+      <find>url</find>
+      <find>usocie</find>
+      <find>onPostCreate</find>
       <find>launch</find>
+      <find>NavigationView.OnNavigationItemSelectedListener</find>
+      <find>onNavigationItemSelected</find>
+      <find>NavigationView = findViewById</find>
+      <find>perfo</find>
+      <find>one</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/src/main/java/com/example/myapplication</dir>
       <dir>$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities</dir>
       <dir>$PROJECT_DIR$/app</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cie_auth.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/TokenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/pullprinting/AppAuthGlideModule.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/CieAuth.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/AuthModule/AuthStateManager_CIE.java" />
@@ -271,7 +264,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/Commons.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/integer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_token.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuthV2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Stampa.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/QrReader.java" />
@@ -279,23 +271,26 @@
         <option value="$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationRequest.java" />
         <option value="$PROJECT_DIR$/library/java/net/openid/appauth/JsonUtil.java" />
         <option value="$PROJECT_DIR$/library/java/net/openid/appauth/Preconditions.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieTokenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/MyCustomTabIntent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/MyCustomTabsIntent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/webView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/web_view.xml" />
         <option value="$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java" />
         <option value="$PROJECT_DIR$/library/java/net/openid/appauth/browser/CustomTabManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Configuration/ConfigurationCIE.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_token.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/cie_activity_token.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_stampa.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java" />
         <option value="$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -304,29 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PullprintingMobileApp" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -349,6 +321,40 @@
               <item name="~/Desktop/PullprintingMobileApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="gradle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="wrapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="pullprinting" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PullprintingMobileApp" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -407,10 +413,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PullprintingMobileApp:app [signingReport]">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="eu.fbk.st.pullprinting.Activities.TokenActivity" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -595,6 +654,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android App.TokenActivity" />
         <item itemvalue="Gradle.PullprintingMobileApp:app [signingReport]" />
         <item itemvalue="Android App.webView" />
       </list>
@@ -626,28 +686,28 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Captures" order="0" sideWeight="0.5395137" side_tool="true" weight="0.14652015" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.45089903" visible="true" weight="0.14652015" />
-      <window_info id="Structure" order="2" sideWeight="0.5395137" side_tool="true" weight="0.14652015" />
-      <window_info id="Favorites" order="3" sideWeight="0.5395137" side_tool="true" weight="0.14652015" />
-      <window_info id="Build Variants" order="4" sideWeight="0.549101" side_tool="true" visible="true" weight="0.14652015" />
+      <window_info id="Captures" order="0" sideWeight="0.211838" side_tool="true" weight="0.14652015" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.78660434" visible="true" weight="0.14652015" />
+      <window_info id="Structure" order="2" sideWeight="0.211838" side_tool="true" weight="0.14652015" />
+      <window_info id="Favorites" order="3" sideWeight="0.211838" side_tool="true" weight="0.14652015" />
+      <window_info id="Build Variants" order="4" sideWeight="0.21339564" side_tool="true" visible="true" weight="0.14652015" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.65628815" weight="0.32857144" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.65506715" weight="0.32857144" />
       <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8070818" weight="0.5479592" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4993895" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62637365" weight="0.34489796" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6221001" weight="0.34489796" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.34371185" side_tool="true" visible="true" weight="0.2622449" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="5" sideWeight="0.3778999" side_tool="true" visible="true" weight="0.34489796" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.5866911" weight="0.2622449" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.64407814" weight="0.2622449" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32959184" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.32967034" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Assistant" order="5" visible="true" weight="0.32967034" />
@@ -657,187 +717,184 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Stampa.java</url>
           <line>239</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java</url>
-          <line>175</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/browser/CustomTabManager.java</url>
           <line>113</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java</url>
           <line>312</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java</url>
           <line>317</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java</url>
           <line>206</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java</url>
           <line>207</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java</url>
           <line>208</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java</url>
-          <line>168</line>
+          <line>171</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java</url>
-          <line>170</line>
+          <line>173</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java</url>
-          <line>235</line>
+          <line>237</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java</url>
-          <line>404</line>
+          <line>414</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java</url>
+          <line>272</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java</url>
+          <line>236</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java</url>
+          <line>402</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java</url>
           <line>153</line>
           <properties class="net.openid.appauth.AuthorizationManagementActivity" method="createStartIntent" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java</url>
-          <line>138</line>
+          <line>140</line>
           <properties class="net.openid.appauth.AuthorizationService" method="createCustomTabsIntentBuilder" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java</url>
-          <line>1479</line>
-          <properties class="eu.fbk.st.pullprinting.Activities.TokenActivity" method="testCustomTab" />
+          <line>1501</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.TokenActivity" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/CustomTabsIntent.class</url>
           <line>61</line>
           <properties class="android.support.customtabs.CustomTabsIntent" method="&lt;init&gt;" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java</url>
           <line>90</line>
           <properties class="eu.fbk.st.pullprinting.Activities.CieAuth" method="onStart" />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieTokenActivity.java</url>
           <line>84</line>
           <properties class="eu.fbk.st.pullprinting.Activities.CieTokenActivity" method="onCreate" />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieTokenActivity.java</url>
           <line>127</line>
           <properties class="eu.fbk.st.pullprinting.Activities.CieTokenActivity" method="onSaveInstanceState" />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java</url>
+          <line>641</line>
+          <properties method="onClick" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java</url>
+          <line>134</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.MainActivity" method="initializeClient" />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java</url>
+          <line>129</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.MainActivity" method="initializeAuthRequest" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java</url>
+          <line>120</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.MainActivity" method="warmUpBrowser" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java</url>
+          <line>110</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.MainActivity" method="recreateAuthorizationService" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java</url>
+          <line>101</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.MainActivity" method="createAuthorizationService" />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java</url>
+          <line>89</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.MainActivity" method="createAuthRequest" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/internal/UriUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/internal/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
-          <folding>
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/ICustomTabsCallback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#1938#1939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/os/Parcel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-            <element signature="e#2917#2918#0" expanded="true" />
-            <element signature="e#7761#7762#0" expanded="true" />
-            <element signature="e#7812#7813#0" expanded="true" />
-            <element signature="e#7946#7947#0" expanded="true" />
-            <element signature="e#7997#7998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/ICustomTabsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/CustomTabsSession.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1665">
@@ -881,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/AuthModule/AuthStateManager_CIE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -910,14 +960,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/MyCustomTabIntent.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_token.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4350">
-          <caret line="290" column="49" selection-start-line="290" selection-start-column="49" selection-end-line="290" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cie_auth.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -926,42 +968,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/web_view.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/webView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieTokenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="324" column="32" selection-start-line="324" selection-start-column="32" selection-end-line="324" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15788#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="188" column="23" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/webView.java" />
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/os/BaseBundle.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1103,30 +1110,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/browser/CustomTabManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/CustomTabsIntent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" column="65" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="65" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Configuration/ConfigurationCIE.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1153,10 +1138,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/auth_config_sc.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/web_view.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_stampa.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_token.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="310" column="45" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/CustomTabsIntent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="106" column="93" selection-start-line="106" selection-start-column="93" selection-end-line="106" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/javatests/net/openid/appauth/browser/BrowserSelectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="181" column="32" selection-start-line="181" selection-start-column="32" selection-end-line="181" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/browser/CustomTabManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Stampa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4710">
+          <caret line="373" column="54" selection-start-line="373" selection-start-column="54" selection-end-line="373" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieTokenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="157" column="47" selection-start-line="157" selection-start-column="47" selection-end-line="157" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#15788#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6069#6070#0" expanded="true" />
+            <element signature="e#6133#6134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cie_activity_token.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1186,28 +1244,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationManagementActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="30" />
+        <state relative-caret-position="2085">
+          <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationServiceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="393" column="75" lean-forward="true" selection-start-line="391" selection-start-column="7" selection-end-line="393" selection-end-column="75" />
+        <state relative-caret-position="187">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Printer_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="169" column="42" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="1360" column="10" selection-start-line="1360" selection-start-column="10" selection-end-line="1360" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -159,7 +159,9 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
 
         drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.bringToFront();
         navigationView.setNavigationItemSelectedListener(this);
+
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar,
@@ -176,7 +178,6 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
             signOut();
         }*/
 
-        //to fix per avere il messaggio sul response... altrimenti crasha quando l'utente ha già fatto il login!
         try {
             response_stampa = getIntent().getExtras().getString("response_message");
             //System.out.println("response_message to show: "+response_stampa);
@@ -659,7 +660,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     startActivityForResult(intent, REQUEST_CODE);
 
                 } else {
-                    AlertDiStampa("Non hai selezionato nessun lavoro da stampare!");
+                    NoJobSelected("Non hai selezionato nessun lavoro da stampare!");
                 }
             }
         });
@@ -672,7 +673,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     delete(accessTokenResponse,customAdapter.job_selezionati);
 
                 } else {
-                    AlertDiStampa("Non hai selezionato nessun lavoro da stampare!");
+                    NoJobSelected("Non hai selezionato nessun lavoro da stampare!");
                 }
             }
         });
@@ -942,6 +943,27 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
             }
             runOnUiThread(this::displayAuthorized);
         });
+    }
+
+    public void NoJobSelected(String message) {
+
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+        // Setting Alert Dialog Title
+        alertDialogBuilder.setTitle("No job selected");
+        // Icon Of Alert Dialog
+        alertDialogBuilder.setIcon(R.drawable.icon);
+        // Setting Alert Dialog Message
+        alertDialogBuilder.setMessage(message);
+        alertDialogBuilder.setCancelable(false);
+        alertDialogBuilder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface arg0, int arg1) {
+                //finish();
+                Toast.makeText(getApplicationContext(), "ok", Toast.LENGTH_SHORT).show();
+            }
+        });
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
     }
 
 
@@ -1215,7 +1237,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     startActivity(intent);
                     Commons.acutalPrinter=PrinterID;
                     finish();
-                } else {
+                } else if(customAdapter.securePrintDocument_number>0){
                     print(accessTokenResponse, jobResult, PrinterID);
                     Commons.acutalPrinter=PrinterID;
                 }
@@ -1336,12 +1358,12 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-        Toast.makeText(TokenActivity.this,"onNavigationItemSelected",Toast.LENGTH_LONG).show();
+        //Toast.makeText(TokenActivity.this,"onNavigationItemSelected",Toast.LENGTH_LONG).show();
         //System.out.println("menuItem.getItemId(): "+menuItem.getItemId());
         switch (menuItem.getItemId()){
             case R.id.nav_feedback:
                 Toast.makeText(this, "Feedback", Toast.LENGTH_SHORT).show();
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MessageFragment()).commit();
+                //getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new MessageFragment()).commit();
                 break;
             case R.id.nav_logout:
                 Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();

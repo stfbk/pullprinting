@@ -166,6 +166,9 @@ public class CieAuth extends AppCompatActivity {
 
         //AGGIUNTE CIEAUTH TEST
         //prima
+
+        AuthorizationService.cieAuth=true;
+
          mAuthService.performAuthorizationRequest(
                 authRequest,
                 CieTokenActivity.createPostAuthorizationIntent(
