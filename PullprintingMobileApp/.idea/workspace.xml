@@ -17,6 +17,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="UTENTE TO PRINT" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -80,35 +81,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="272" selection-start-line="272" selection-end-line="272" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Printer_list.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="1360" column="10" selection-start-line="1360" selection-start-column="10" selection-end-line="1360" selection-end-column="10" />
+            <state relative-caret-position="166">
+              <caret line="568" column="36" selection-start-line="568" selection-start-column="36" selection-end-line="568" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6379#6411#0" expanded="true" />
+                <element signature="e#15290#15291#0" expanded="true" />
+                <element signature="e#15331#15332#0" expanded="true" />
+                <element signature="e#21698#21699#0" expanded="true" />
+                <element signature="e#21753#21754#0" expanded="true" />
+                <element signature="e#23664#23665#0" expanded="true" />
+                <element signature="e#23705#23706#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="144" column="45" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -116,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="1950">
               <caret line="169" column="42" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="42" />
             </state>
           </provider>
@@ -163,12 +159,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_token.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="4650">
+              <caret line="310" column="45" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="45" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -195,14 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aggiorna</find>
-      <find>alertdistampa</find>
-      <find>.chrome</find>
-      <find>nessun</find>
-      <find>startac</find>
-      <find>chr</find>
-      <find>chrom</find>
-      <find>com.android.browser</find>
       <find>startactiv</find>
       <find>brows</find>
       <find>chrome</find>
@@ -225,6 +220,14 @@
       <find>NavigationView = findViewById</find>
       <find>perfo</find>
       <find>one</find>
+      <find>onload</find>
+      <find>result</find>
+      <find>userInfoCard</find>
+      <find>UTENTE</find>
+      <find>Failed to read userinfo JSON</find>
+      <find>userInfo</find>
+      <find>back</find>
+      <find>UTENTE TO PRINT</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/src/main/java/com/example/myapplication</dir>
@@ -236,7 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/pullprinting/AppAuthGlideModule.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/eu/fbk/myapplication/CieAuth.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/AuthModule/AuthStateManager_CIE.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/ConnectionBuilderForTesting.java" />
@@ -286,11 +288,12 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java" />
         <option value="$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -327,28 +330,6 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="PullprintingMobileApp" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="pullprinting" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -360,6 +341,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,25 +666,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.211838" side_tool="true" weight="0.14652015" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.78660434" visible="true" weight="0.14652015" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.78163266" visible="true" weight="0.14652015" />
       <window_info id="Structure" order="2" sideWeight="0.211838" side_tool="true" weight="0.14652015" />
       <window_info id="Favorites" order="3" sideWeight="0.211838" side_tool="true" weight="0.14652015" />
-      <window_info id="Build Variants" order="4" sideWeight="0.21339564" side_tool="true" visible="true" weight="0.14652015" />
+      <window_info id="Build Variants" order="4" sideWeight="0.21836735" side_tool="true" visible="true" weight="0.14652015" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.65506715" weight="0.32857144" />
-      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8070818" weight="0.5479592" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.6544567" weight="0.32857144" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.8064713" weight="0.5479592" />
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6221001" weight="0.34489796" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="5" sideWeight="0.3778999" side_tool="true" visible="true" weight="0.34489796" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.1935287" side_tool="true" weight="0.5479592" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.64407814" weight="0.2622449" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.64346766" weight="0.2622449" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32959184" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -821,8 +802,8 @@
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java</url>
-          <line>1501</line>
-          <properties class="eu.fbk.st.pullprinting.Activities.TokenActivity" />
+          <line>1509</line>
+          <properties class="eu.fbk.st.pullprinting.Activities.TokenActivity" method="testCustomTab" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
@@ -851,7 +832,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java</url>
-          <line>641</line>
+          <line>646</line>
           <properties method="onClick" />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
@@ -895,18 +876,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/CustomTabsSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="e#4816#4817#0" expanded="true" />
-            <element signature="e#4856#4857#0" expanded="true" />
-            <element signature="e#4898#4899#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/CustomTabsClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -961,12 +930,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Utilities/MyCustomTabIntent.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cie_auth.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="60" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="60" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/webView.java" />
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/os/BaseBundle.class">
@@ -1146,28 +1115,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/web_view.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_stampa.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_token.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="310" column="45" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="45" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e4cc4217701bb4efd3446ce36eec198a/jars/classes.jar!/android/support/customtabs/CustomTabsIntent.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1211,12 +1172,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cie_activity_token.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Instrumentation.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1227,6 +1188,54 @@
     </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Printer_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="568" column="36" selection-start-line="568" selection-start-column="36" selection-end-line="568" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6379#6411#0" expanded="true" />
+            <element signature="e#15290#15291#0" expanded="true" />
+            <element signature="e#15331#15332#0" expanded="true" />
+            <element signature="e#21698#21699#0" expanded="true" />
+            <element signature="e#21753#21754#0" expanded="true" />
+            <element signature="e#23664#23665#0" expanded="true" />
+            <element signature="e#23705#23706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="144" column="45" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="169" column="42" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="42" />
+        </state>
+      </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1260,51 +1269,22 @@
       </provider>
       <provider editor-type-id="android-manifest" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_token.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="4650">
+          <caret line="310" column="45" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="45" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationServiceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/java/net/openid/appauth/AuthorizationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/Printer_list.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/CieAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="169" column="42" selection-start-line="169" selection-start-column="29" selection-end-line="169" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/eu/fbk/st/pullprinting/Activities/TokenActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="1360" column="10" selection-start-line="1360" selection-start-column="10" selection-end-line="1360" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
