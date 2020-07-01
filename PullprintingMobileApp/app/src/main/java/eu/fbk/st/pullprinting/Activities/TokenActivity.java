@@ -217,8 +217,9 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
     //create sidebar for logout
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
 
-        createDialog();
+        //createDialog();
 
         /*if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -561,10 +562,14 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
         } else {
             try {
                 String name = "???";
-                if (userInfo.has("name")) {
-                    name = userInfo.getString("name");
+                if (userInfo.has("request")) {
+                    name = userInfo.getJSONObject("request").getString("user");
                 }
                 ((TextView) findViewById(R.id.userinfo_name)).setText(name);
+                System.out.println("UTENTE TO PRINT: "+name);
+                System.out.println("userInfo: "+mUserInfoJson.toString());
+                ((TextView) findViewById(R.id.username_login)).setText(name);
+
 
                 /*if (userInfo.has("picture")) {
                     GlideApp.with(TokenActivity.this)
@@ -683,6 +688,9 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
         Commons.copy_speed_map.put("ECOSYS P6230cdn",30.0);
         Commons.first_copy_map.put("TOSHIBA e-STUDIO4555C",6.1);
         Commons.first_copy_map.put("ECOSYS P6230cdn",7.5);
+
+
+
     }
 
 
