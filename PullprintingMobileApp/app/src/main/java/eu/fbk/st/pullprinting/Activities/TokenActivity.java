@@ -566,8 +566,6 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     name = userInfo.getJSONObject("request").getString("user");
                 }
                 ((TextView) findViewById(R.id.userinfo_name)).setText(name);
-                System.out.println("UTENTE TO PRINT: "+name);
-                System.out.println("userInfo: "+mUserInfoJson.toString());
                 ((TextView) findViewById(R.id.username_login)).setText(name);
 
 
@@ -1236,8 +1234,10 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
             public void onClick(DialogInterface arg0, int arg1) {
                 Toast.makeText(getApplicationContext(), "Perfetto", Toast.LENGTH_SHORT).show();
                 //se giusta allora prosegui
-                if (secure_print_active == true || customAdapter.securePrintDocument_number>0) {
-                    checked=true;
+                //if (secure_print_active == true || customAdapter.securePrintDocument_number>0) { //--> try to debug later
+                if (secure_print_active == true) {
+
+                        checked=true;
                     Intent intent = new Intent(TokenActivity.this, CieAuth.class);
                     intent.putExtra("PrinterID", PrinterID);
                     intent.putExtra("accessTokenResponse", accessTokenResponse);
@@ -1245,7 +1245,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     startActivity(intent);
                     Commons.acutalPrinter=PrinterID;
                     finish();
-                } else if(customAdapter.securePrintDocument_number>0){
+                } else{
                     print(accessTokenResponse, jobResult, PrinterID);
                     Commons.acutalPrinter=PrinterID;
                 }
