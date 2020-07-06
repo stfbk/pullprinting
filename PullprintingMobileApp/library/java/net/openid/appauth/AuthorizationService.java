@@ -400,6 +400,11 @@ public class AuthorizationService {
             CustomTabsIntent customIntent = builder.build();
             //customIntent.launchUrl(mContext, Uri.parse(requestUri.toString()));
             customIntent.launchUrl(mContext, Uri.parse("https://am-test.smartcommunitylab.it"));
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             customIntent.launchUrl(mContext, Uri.parse(requestUri.toString()));
 
         }

@@ -285,12 +285,12 @@
                         android:layout_height="wrap_content"
                         android:text="Select all" />
 
-                    <Button
+                    <!--<Button
                         android:id="@+id/testCustomTab"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="testCustomTab"
-                        android:onClick="testCustomTab"/>
+                        android:onClick="testCustomTab"/>-->
 
                 </LinearLayout>
 

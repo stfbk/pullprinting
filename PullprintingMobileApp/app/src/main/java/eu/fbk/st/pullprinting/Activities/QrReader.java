@@ -102,6 +102,14 @@ public class QrReader extends AppCompatActivity {
         }
     }
 
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mAuthService.dispose();
+        mAuthService = null;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -179,6 +187,8 @@ public class QrReader extends AppCompatActivity {
                 cameraSource.stop();
             }
         });
+
+
 
         /**
          * legge il codice QR e chiama una activity che si occuperà di autenticare l'utente attraverso un secondo fattore, la CIE
