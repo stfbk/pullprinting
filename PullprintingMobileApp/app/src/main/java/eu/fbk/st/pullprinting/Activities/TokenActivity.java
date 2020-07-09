@@ -93,7 +93,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
     private Configuration mConfiguration;
     private ExecutorService mExecutor;
     public JSONObject my_json = new JSONObject();
-    String accessTokenResponse;
+    public static String accessTokenResponse;
     String response;
     String response_secure;
     boolean nessun_job = false;
@@ -1234,10 +1234,10 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
             public void onClick(DialogInterface arg0, int arg1) {
                 Toast.makeText(getApplicationContext(), "Perfetto", Toast.LENGTH_SHORT).show();
                 //se giusta allora prosegui
-                //if (secure_print_active == true || customAdapter.securePrintDocument_number>0) { //--> try to debug later
+                //if (secure_print_active == true || customAdapter.securePrintDocument_number>0) { //--> try to debug late
                 if (secure_print_active == true) {
 
-                        checked=true;
+                    checked=true;
                     Intent intent = new Intent(TokenActivity.this, CieAuth.class);
                     intent.putExtra("PrinterID", PrinterID);
                     intent.putExtra("accessTokenResponse", accessTokenResponse);

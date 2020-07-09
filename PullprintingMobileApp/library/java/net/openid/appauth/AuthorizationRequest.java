@@ -51,6 +51,9 @@ import java.util.Set;
  */
 public class AuthorizationRequest {
 
+
+
+    static public String my_code_verifier;
     /**
      * SHA-256 based code verifier challenge method.
      *
@@ -858,6 +861,10 @@ public class AuthorizationRequest {
             }
 
             mCodeVerifier = codeVerifier;
+
+            my_code_verifier = codeVerifier;
+            System.out.println("my_code_verifier:"+my_code_verifier);
+
             mCodeVerifierChallenge = codeVerifierChallenge;
             mCodeVerifierChallengeMethod = codeVerifierChallengeMethod;
 

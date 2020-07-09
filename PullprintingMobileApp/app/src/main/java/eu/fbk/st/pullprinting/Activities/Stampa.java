@@ -237,8 +237,6 @@ public class Stampa extends AppCompatActivity {
                     intent.putExtra("PrinterID", PrinterID);
                     intent.putExtra("accessTokenResponse", accessTokenResponse);
                     intent.putExtra("jobResult", jobResult);
-                    startActivity(intent);
-                    finish();
                 } else {
                     print(accessTokenResponse, jobResult, PrinterID);
                 }

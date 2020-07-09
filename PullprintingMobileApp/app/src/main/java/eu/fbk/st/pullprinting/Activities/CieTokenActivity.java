@@ -107,7 +107,7 @@ public class CieTokenActivity extends AppCompatActivity {
             }
         }
         //in questo modo richiede la CIE ogni volta, altrimenti (senza) usa il token finchè valido
-        mAuthState=null;
+        mAuthState = null;
         if (mAuthState == null) {
             AuthorizationResponse response = AuthorizationResponse.fromIntent(getIntent());
             AuthorizationException ex = AuthorizationException.fromIntent(getIntent());
@@ -146,7 +146,7 @@ public class CieTokenActivity extends AppCompatActivity {
             @Nullable AuthorizationException authException) {
         Log.d(TAG, "Token request complete");
         mAuthState.update(tokenResponse, authException);
-        //System.out.println("ARRIVA QUALCOSA??:"+mAuthState.getIdToken());
+        System.out.println("ARRIVA QUALCOSA??:"+mAuthState.getIdToken());
         showSnackbar((tokenResponse != null)
                 ? R.string.exchange_complete
                 : R.string.refresh_failed);
@@ -160,6 +160,7 @@ public class CieTokenActivity extends AppCompatActivity {
 
     private void refreshUi() {
         displayLoading("sending jobs to the printer...");
+
     }
 
     private void refreshAccessToken() {
@@ -169,12 +170,14 @@ public class CieTokenActivity extends AppCompatActivity {
     }
 
     private void exchangeAuthorizationCode(AuthorizationResponse authorizationResponse) {
+        //here to fix
         mExecutor.submit(() -> {
             try {
-                Response responseTokenExchange = requestExchangeCode(authorizationResponse.authorizationCode,authorizationResponse.state);
-                System.err.println("EndRequestLetturaCie:"+ new Timestamp(System.currentTimeMillis()));
+                System.err.println("TEST BREAKPOINT");
+                Response responseTokenExchange = requestExchangeCode(authorizationResponse.authorizationCode, authorizationResponse.state);
+                System.err.println("EndRequestLetturaCie:" + new Timestamp(System.currentTimeMillis()));
                 int code = responseTokenExchange.code();
-                if (responseTokenExchange.isSuccessful()==true) {
+                if (responseTokenExchange.isSuccessful() == true) {
                     // continue
                     String response = responseTokenExchange.body().string();
                     //Log.e("ExchangeCodeResponse", response);
@@ -184,16 +187,16 @@ public class CieTokenActivity extends AppCompatActivity {
                         jsonObjectResponse = new JSONObject(response);
                         //System.out.println("jsonObjectResponse: "+jsonObjectResponse);
                         //passo tutti i valori utili alla funzione di stampa
-                        String PrinterID = Stampa.PrinterID;
-                        String accessTokenResponse = Stampa.accessTokenResponse;
-                        ArrayList jobResult = Stampa.jobResult;
+                        String PrinterID = TokenActivity.PrinterID;
+                        String accessTokenResponse = TokenActivity.accessTokenResponse;
+                        ArrayList jobResult = TokenActivity.jobResult;
                         String accessTokenSC = jsonObjectResponse.getString("access_token");
-                        //System.out.println("accessTokenSC: "+accessTokenSC);
-                        /*System.out.println("arraylist: "+jobResult);
+                        System.out.println("accessTokenSC: "+accessTokenSC);
+                        System.out.println("arraylist: "+jobResult);
                         System.out.println("checkvalue: \n"+"PrinterID: "+PrinterID +"\n accessTokenResponse: " +accessTokenResponse+"\n jobResult: "+jobResult);
-                        System.out.println("jsonObjectResponse_accessToken: "+accessTokenSC);*/
-                        int printCode=400;
-                        Response responsePrint=null;
+                        System.out.println("jsonObjectResponse_accessToken: "+accessTokenSC);
+                        int printCode = 400;
+                        Response responsePrint = null;
                         Iterator iterator;
                         try {
                             //showSnackbar("Trying to print your job");
@@ -201,22 +204,19 @@ public class CieTokenActivity extends AppCompatActivity {
                             while (iterator.hasNext()) {
                                 String jobID = iterator.next().toString();
                                 //System.out.println("accessTokenSC passed: "+accessTokenSC);
-                                responsePrint = requestPrintCIE(accessTokenSC,accessTokenResponse,PrinterID,jobID);
-                                System.err.println("EndRequestCIE:"+ new Timestamp(System.currentTimeMillis()));
+                                responsePrint = requestPrintCIE(accessTokenSC, accessTokenResponse, PrinterID, jobID);
+                                System.err.println("EndRequestCIE:" + new Timestamp(System.currentTimeMillis()));
                                 printCode = responsePrint.code();
                                 //print(accessTokenSC, accessTokenResponse, jobID, PrinterID);
                             }
                             //System.out.println("printCode: "+printCode);
-                            if(jobResult.size()>0){
-                                if(printCode==200) {
+                            if (jobResult.size() > 0) {
+                                if (printCode == 200) {
                                     response_message = "I lavori sono stati mandati correttamente nella stampante selezionata.";
-                                }
-                                else if(printCode!=200)
-                                {
+                                } else if (printCode != 200) {
                                     response_message = responsePrint.body().string();
                                 }
-                            }
-                            else{
+                            } else {
                                 response_message = "Non hai selezionato nessun lavoro";
                             }
                         } catch (Exception e) {
@@ -227,7 +227,7 @@ public class CieTokenActivity extends AppCompatActivity {
                         intent.putExtra("response", response_message);
                         startActivity(intent);
                         finish();
-                    }catch (JSONException err){
+                    } catch (JSONException err) {
                         Log.d("Error", err.toString());
                     }
                 } else {
@@ -239,8 +239,8 @@ public class CieTokenActivity extends AppCompatActivity {
         });
     }
 
-    private Response requestPrintCIE(String accessTokenSC, String accessToken, String printerID, String jobID ) throws IOException {
-        System.err.println("StartRequestCIE:"+ new Timestamp(System.currentTimeMillis()));
+    private Response requestPrintCIE(String accessTokenSC, String accessToken, String printerID, String jobID) throws IOException {
+        System.err.println("StartRequestCIE:" + new Timestamp(System.currentTimeMillis()));
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder()
@@ -251,9 +251,9 @@ public class CieTokenActivity extends AppCompatActivity {
                 .add("", "")
                 .build();*/
         MediaType mediaType = MediaType.parse("multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW");
-        RequestBody body = RequestBody.create(mediaType, "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"access_token\"\r\n\r\n"+accessToken+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"JobID\"\r\n\r\n"+jobID+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"printerDestinationId\"\r\n\r\n"+printerID+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"token\"\r\n\r\n"+accessTokenSC+"\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
+        RequestBody body = RequestBody.create(mediaType, "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"access_token\"\r\n\r\n" + accessToken + "\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"JobID\"\r\n\r\n" + jobID + "\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"printerDestinationId\"\r\n\r\n" + printerID + "\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"token\"\r\n\r\n" + accessTokenSC + "\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
         Request request = new Request.Builder()
-                .url("https://"+ getString(R.string.base_url)+"/print_token_SC")
+                .url("https://" + getString(R.string.base_url) + "/print_token_SC")
                 .post(body)
                 .addHeader("Content-Type", "application/x-www-form-urlencoded")
                 .addHeader("Accept-Encoding", "gzip, deflate")
@@ -263,8 +263,8 @@ public class CieTokenActivity extends AppCompatActivity {
         return client.newCall(request).execute();
     }
 
-    private Response requestExchangeCode(String code,String state) throws IOException {
-        System.err.println("StartrequestExchangeCode:"+ new Timestamp(System.currentTimeMillis()));
+    private Response requestExchangeCode(String code, String state) throws IOException {
+        System.err.println("StartrequestExchangeCode:" + new Timestamp(System.currentTimeMillis()));
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder()
@@ -276,7 +276,7 @@ public class CieTokenActivity extends AppCompatActivity {
                 .add("", "")
                 .build();
         Request request = new Request.Builder()
-                .url("https://am-test.smartcommunitylab.it/aac/oauth/token?client_id=e9610874-1548-4311-a663-472ba9c1ce33&client_secret=383ef7c1-7718-4265-8108-f098b769c5e9&grant_type=authorization_code&code="+code+"&state="+state+"&redirect_uri=com.googleusercontent.apps.641468808636-roej63drmm2vaude7n444oj21afbphel:/oauth2redirect")
+                .url("https://am-test.smartcommunitylab.it/aac/oauth/token?client_id=e9610874-1548-4311-a663-472ba9c1ce33&client_secret=383ef7c1-7718-4265-8108-f098b769c5e9&grant_type=authorization_code&code=" + code + "&state=" + state + "&code_verifier="+ AuthorizationRequest.my_code_verifier +"&redirect_uri=com.googleusercontent.apps.641468808636-roej63drmm2vaude7n444oj21afbphel:/oauth2redirect")
                 .post(formBody)
                 .addHeader("cache-control", "no-cache")
                 .build();
@@ -285,7 +285,7 @@ public class CieTokenActivity extends AppCompatActivity {
         return client.newCall(request).execute();
     }
 
-        private void performTokenRequest(TokenRequest request) {
+    private void performTokenRequest(TokenRequest request) {
         mAuthService.performTokenRequest(
                 request,
                 new AuthorizationService.TokenResponseCallback() {
@@ -297,6 +297,7 @@ public class CieTokenActivity extends AppCompatActivity {
                     }
                 });
     }
+
 
     private void updateUserInfo(final JSONObject jsonObject) {
         new Handler(Looper.getMainLooper()).post(new Runnable() {
