@@ -54,6 +54,9 @@ public class AuthorizationResponse {
      */
     public static final String EXTRA_RESPONSE = "net.openid.appauth.AuthorizationResponse";
 
+
+    public static String my_code_verifier;
+
     /**
      * Indicates that a provided access token is a bearer token.
      * @see "The OAuth 2.0 Authorization Framework (RFC 6749), Section 7.1 <https://tools.ietf.org/html/rfc6749#section-7.1>"
@@ -457,6 +460,9 @@ public class AuthorizationResponse {
         if (authorizationCode == null) {
             throw new IllegalStateException("authorizationCode not available for exchange request");
         }
+
+        my_code_verifier=request.codeVerifier.toString();
+        System.out.println("code_verifier:"+my_code_verifier);
 
         return new TokenRequest.Builder(
                 request.configuration,

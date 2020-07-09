@@ -393,7 +393,7 @@ public class AuthorizationService {
 
 
 
-        if(cieAuth==true) {
+        /*if(cieAuth==true) {
             cieAuth=false;
 
             CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
@@ -407,7 +407,7 @@ public class AuthorizationService {
             }
             customIntent.launchUrl(mContext, Uri.parse(requestUri.toString()));
 
-        }
+        }*/
 
         Logger.debug("Using %s as browser for auth, custom tab = %s",
                 intent.getPackage(),
