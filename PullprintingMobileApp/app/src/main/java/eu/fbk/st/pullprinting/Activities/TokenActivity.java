@@ -676,7 +676,7 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     delete(accessTokenResponse,customAdapter.job_selezionati);
 
                 } else {
-                    NoJobSelected("Non hai selezionato nessun lavoro da stampare!");
+                    NoJobSelected("Non hai selezionato nessun lavoro da eliminare!");
                 }
             }
         });
@@ -1250,6 +1250,10 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                     Commons.acutalPrinter=PrinterID;
                 }
 
+                getModelPrinter();
+                Commons.acutalPrinter=PrinterID;
+
+
             }
         }).create();
         alertDialogBuilder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
@@ -1339,8 +1343,8 @@ public class TokenActivity extends AppCompatActivity implements NavigationView.O
                             PrinterID = barcode;//getIntent().getExtras().getString("barcode");
 
 
-                            getModelPrinter();
-                            Commons.acutalPrinter=PrinterID;
+                            //getModelPrinter();
+                            //Commons.acutalPrinter=PrinterID;
 
                             //System.out.println("ID by QR: "+barcode);
                             //createDialog("Sei sicuro di voler stampare qui?"+PrinterID); //mettere il nome e un immagine

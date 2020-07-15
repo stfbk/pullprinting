@@ -73,20 +73,27 @@ public class Printer_list extends AppCompatActivity {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(Printer_list.this, "clicked item:" + position + " " + printerLIDist.get(position).toString(), Toast.LENGTH_LONG).show();
+                //Toast.makeText(Printer_list.this, "clicked item:" + position + " " + printerLIDist.get(position).toString(), Toast.LENGTH_LONG).show();
                 //GUARDA I CAMBIAMENTI PER LA CIE!
                 Intent intent = new Intent(Printer_list.this, Stampa.class);
 
                 String mod_stampa = "Lista";
                 intent.putExtra("stampance_scelta_attraverso", mod_stampa);
-                intent.putExtra("printer_list_result",printerLIDist.get(position));
+                intent.putExtra("printer_list_result", printerLIDist.get(position));
                 //System.out.println("elemento selezionato dal toast :"+printerLIDist.get(position));
                 setResult(RESULT_OK, intent);
                 finish();
             }
         });
-        //System.out.println(arrayList);
     }
+
+        @Override
+        public void onBackPressed() {
+            Intent intent = new Intent(this, TokenActivity.class);
+            startActivity(intent);
+        }
+        //System.out.println(arrayList);
+
 }
 
 

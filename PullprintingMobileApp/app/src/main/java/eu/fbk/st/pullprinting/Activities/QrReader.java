@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.nfc.Tag;
 import android.os.CountDownTimer;
 import android.os.Vibrator;
 import android.support.annotation.MainThread;
@@ -281,7 +282,12 @@ public class QrReader extends AppCompatActivity {
             public void onFinish() {
                 //Intent intent = new Intent(QrReader.this, Printer_list.class);
                 //startActivityForResult(intent, REQUEST_CODE);
-                printerList();
+                try {
+                    printerList();
+                }
+                catch (Exception Ex){
+                    Log.e(TAG, "Failed to PrinterList", Ex);
+                }
             }
         }.start();
     }
@@ -310,12 +316,13 @@ public class QrReader extends AppCompatActivity {
         /*if(state.getRefreshToken() == null || state.getAccessToken() == null || state.getAccessTokenExpirationTime() < System.currentTimeMillis()){
             refreshAccessToken();
         }*/
+        try {
         AuthorizationServiceDiscovery discovery =
                 mStateManager.getCurrent()
                         .getAuthorizationServiceConfiguration()
                         .discoveryDoc;
         URL joburl;
-        try {
+
             joburl =
                     mConfiguration.getUserInfoEndpointUri() != null
                             ? new URL(mConfiguration.getmCloudList().toString())
@@ -326,29 +333,36 @@ public class QrReader extends AppCompatActivity {
             //runOnUiThread(this::displayAuthorized);
             return;
         }
-        mExecutor.submit(() -> {
-            try {
-                Response responseQueuePrinter = requestQueuePrinter(accessToken);
-                System.err.println("EndRequestPrinterList:"+ new Timestamp(System.currentTimeMillis()));
-                int code = responseQueuePrinter.code();
-                if (responseQueuePrinter.isSuccessful() == true) {
-                    // continue
-                    String response = responseQueuePrinter.body().string();
-                    //Log.e("requestPrinter", response);
-                    Intent intent = new Intent(QrReader.this, Printer_list.class);
-                    intent.putExtra("list_printer", response);
-                    //System.out.println("requestPrinter_QRactivity: "+response);
-                    //startActivity(intent);
-                    startActivityForResult(intent, REQUEST_CODE);
-                    //finish();
-                } else {
-                    String errorMessage = responseQueuePrinter.body().string();
+
+        try {
+            mExecutor.submit(() -> {
+                try {
+                    Response responseQueuePrinter = requestQueuePrinter(accessToken);
+                    System.err.println("EndRequestPrinterList:" + new Timestamp(System.currentTimeMillis()));
+                    int code = responseQueuePrinter.code();
+                    if (responseQueuePrinter.isSuccessful() == true) {
+                        // continue
+                        String response = responseQueuePrinter.body().string();
+                        //Log.e("requestPrinter", response);
+                        Intent intent = new Intent(QrReader.this, Printer_list.class);
+                        intent.putExtra("list_printer", response);
+                        //System.out.println("requestPrinter_QRactivity: "+response);
+                        //startActivity(intent);
+                        startActivityForResult(intent, REQUEST_CODE);
+                        //finish();
+                    } else {
+                        String errorMessage = responseQueuePrinter.body().string();
+                    }
+                } catch (IOException ioEx) {
+                    Log.e(TAG, "Network error when querying Printer List endpoint", ioEx);
                 }
-            } catch (IOException ioEx) {
-                Log.e(TAG, "Network error when querying Printer List endpoint", ioEx);
-            }
-            //runOnUiThread(this::displayAuthorized);
-        });
+                //runOnUiThread(this::displayAuthorized);
+            });
+        }
+        catch (Exception Ex) {
+            Log.e(TAG, "",Ex);
+        }
+
     }
 
 
