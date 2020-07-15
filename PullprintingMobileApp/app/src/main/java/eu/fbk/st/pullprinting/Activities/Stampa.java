@@ -247,6 +247,7 @@ public class Stampa extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface arg0, int arg1) {
                 Toast.makeText(getApplicationContext(), "Okay, seleziona un'altra stampante", Toast.LENGTH_SHORT).show();
+
             }
         }).create();
         AlertDialog alertDialog = alertDialogBuilder.create();
