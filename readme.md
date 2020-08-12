@@ -114,7 +114,7 @@ public static String spoolerID = "a8d6c750-f342-f616-5a67-9188eacfdee2";
 - If using Smart Community AAC, configure the **clientID** and **ClientSecret** obtained during the Google authentication configuration in **auth_config_sc.js** as follow:
 ```java
 "client_id": "CLIENT_ID_PREFIX.apps.googleusercontent.com",
-"client_secret":"383ef7c1-7718-4265-8108-f098b769c5e9", //secret mobile
+"client_secret":"383ef7c9-7348-4265-8108-f098z569c5e9", //secret mobile
 "redirect_uri":"com.googleusercontent.apps.CLIENT_ID_PREFIX:/oauth2redirect",
 ```
 - Otherwise configure the OAuth2 server according to the specific implementation.
