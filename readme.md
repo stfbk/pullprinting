@@ -51,7 +51,7 @@ sudo apt install cups
 
 Or configure the printer using the command line tool:
 ```
-lpadmin -p NORD_AMM_ColorCopier -E -v http://print.fbk.eu/printers/NORD.AMM.ColorCopier/.printer -P /usr/share/ppd/cupsfilters/Generic
+lpadmin -p NORD_AMM_ColorCopier -E -v http://print.fbk.eu/printers/NORD.AMM.ColorCopier/.printer -P /usr/share/ppd/cupsfilters/Generic-PDF_Printer-PDF.ppd
 ```
 
 ### GCP connector
