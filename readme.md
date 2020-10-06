@@ -24,7 +24,6 @@ The goal of the project is to prevent print-related data breaches and tackle the
  https://tn.smartcommunitylab.it/timbrature/oauth
  https://am-test.smartcommunitylab.it/aac
  https://am-test.smartcommunitylab.it/aac/auth/google-oauth/callback
- https://appauth.demo-app.io/oauth2redirect
  ```
  - Otherwise, select **Android** application and configure the redirect URIs to the OAuth2 server implementation.
 - Create an API key;
@@ -38,7 +37,6 @@ https://www.googleapis.com/auth/cloudprint
 - Then, enable the following domains:
 ```
 smartcommunitylab.it
-demo-app.io
 ```
 
 ### CUPS and Print Server installation
