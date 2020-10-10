@@ -6,6 +6,7 @@
     <ImageView
         android:id="@+id/dialog_imageview"
         android:layout_width="match_parent"
+        android:contentDescription="@string/segnaposto"
         android:layout_height="224dp"
         android:src="@drawable/nord_sp_colorict" />
 

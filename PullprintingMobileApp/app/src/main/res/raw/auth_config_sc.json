@@ -1,8 +1,7 @@
 {
 
   "client_id": "e9610874-1548-4311-a663-472ba9c1ce33",
-  //"client_secret":"b906d4df-01bc-4212-adf2-e3cdac9be731",
-  "client_secret":"383ef7c1-7718-4265-8108-f098b769c5e9", //secret mobile
+  "client_secret":"383ef7c1-7718-4265-8108-f098b769c5e9",
   "redirect_uri": "com.googleusercontent.apps.641468808636-roej63drmm2vaude7n444oj21afbphel:/oauth2redirect",
   "authorization_scope": "openid operation.confirmed",
   "discovery_uri": "",

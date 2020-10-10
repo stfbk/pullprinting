@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.myapplication.eu.example.myapplication.Stampa"
+    tools:context=".Activities.Stampa"
     tools:showIn="@layout/activity_stampa">
 
 
@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:layout_marginTop="70px"
+            android:layout_marginTop="70dp"
             android:id="@+id/loading_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
-            android:text="Selezione la modalità in cui preferisci stampare:"
+            android:text="@string/Selezione_la_modalità_in_cui_preferisci_stampare"
             android:visibility="visible" />
 
         <LinearLayout
@@ -59,13 +59,13 @@
                 style="@android:style/Widget.Material.Button.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="QR Code" />
+                android:text="@string/QR_Code" />
 
             <Button
                 android:id="@+id/list_printer_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Printer List"
+                android:text="@string/Printer_List"
                 android:visibility="gone" />
         </LinearLayout>
 
@@ -74,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="onCIECheckboxClicked"
-            android:text="secure printing" />
+            android:text="@string/secure_printing" />
     </LinearLayout>
 
     <LinearLayout
@@ -85,7 +85,7 @@
             android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="result"
+            android:text="@string/result"
             android:visibility="invisible" />
 
     </LinearLayout>

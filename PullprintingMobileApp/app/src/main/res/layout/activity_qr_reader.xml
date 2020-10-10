@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="eu.fbk.st.pullprinting.Activities.QrReader">
+    tools:context="eu.enterprise.st.pullprinting.Activities.QrReader">
 
 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
     <LinearLayout
         android:id="@+id/loading_container_qr"
         android:layout_width="match_parent"
@@ -40,7 +39,7 @@
         android:id="@+id/textview"
         android:layout_below="@+id/camerapreview"
         android:layout_marginTop="20dp"
-        android:text="Inquadra il codice QR sulla stampante"
+        android:text="@string/Inquadra_il_codice_QR_sulla_stampante"
         android:textSize="18sp"
         android:gravity="center"
         />

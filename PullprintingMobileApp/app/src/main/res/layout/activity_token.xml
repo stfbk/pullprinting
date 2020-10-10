@@ -2,7 +2,7 @@
 <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context="eu.fbk.st.pullprinting.Activities.TokenActivity"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="eu.enterprise.st.pullprinting.Activities.TokenActivity"
     android:id="@+id/drawer_layout" android:layout_width="match_parent"
     android:layout_height="match_parent" android:fitsSystemWindows="true"
     tools:openDrawer="start"
@@ -41,11 +41,6 @@
 
 
     <!---FINE AGGIUNTE SIDEBAR-->
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,7 +62,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:layout_marginTop="70px"
+                    android:layout_marginTop="70dp"
                     android:id="@+id/loading_description"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
@@ -92,7 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Not Authorized" />
+                    android:text="@string/Not_Authorized" />
 
                 <TextView
                     android:id="@+id/explanation"
@@ -105,7 +100,7 @@
                     android:id="@+id/reauth"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="reauthorize" />
+                    android:text="@string/reauthorize" />
 
             </LinearLayout>
 
@@ -122,7 +117,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="FBK Pull Printing"
+                    android:text="Pull Printing"
                     android:textColor="@android:color/holo_blue_dark"
                     android:visibility="visible" />-->
 
@@ -132,7 +127,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Authorization granted" />
+                    android:text="@string/Authorization_granted" />
 
                 <LinearLayout
                     android:id="@+id/container_button"
@@ -147,21 +142,21 @@
                         style="@style/Widget.AppCompat.Button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Refresh Token" />
+                        android:text="@string/Refresh_Token" />
 
                     <Button
                         android:id="@+id/view_profile"
                         style="@style/Widget.AppCompat.Button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="View Profile" />
+                        android:text="@string/View_Profile" />
 
                     <Button
                         android:id="@+id/sign_out"
                         style="@style/Widget.AppCompat.Button.Colored"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Sign Out" />
+                        android:text="@string/Sign_Out" />
 
                 </LinearLayout>
 
@@ -176,7 +171,7 @@
                         style="@style/Widget.AppCompat.Button.Colored"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="printer"
+                        android:text="@string/printer"
                         android:visibility="invisible" />
 
 
@@ -186,7 +181,7 @@
                         android:layout_marginTop="50px"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Aggiorna Job List"
+                        android:text="@string/Update_Job_List"
                         tools:visibility="invisible" />
 
                     <Button
@@ -194,7 +189,7 @@
                         style="@style/Widget.AppCompat.Button.Colored"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="submit"
+                        android:text="@string/submit"
                         android:visibility="invisible" />
 
                 </LinearLayout>
@@ -204,19 +199,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textColor="@android:color/holo_blue_dark"
-                    android:text="Select documents"></TextView>
+                    android:text="@string/Select_documents"></TextView>
                 <ScrollView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/ScrollView">
                         <LinearLayout
+                            android:baselineAligned="false"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:minHeight="200sp">
 
                             <ListView
                                 android:id="@+id/lv"
-                                android:layout_width="match_parent"
+                                android:layout_width="0dp"
                                 android:layout_height="300sp"
                                 android:layout_weight="1"
                                 android:scrollbars="vertical"
@@ -237,7 +233,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@string/TextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 <LinearLayout
@@ -277,20 +273,14 @@
                         android:id="@+id/deselect"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Deselect all" />
+                        android:text="@string/Deselect_all" />
 
                     <Button
                         android:id="@+id/select"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Select all" />
+                        android:text="@string/Select_all" />
 
-                    <!--<Button
-                        android:id="@+id/testCustomTab"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="testCustomTab"
-                        android:onClick="testCustomTab"/>-->
 
                 </LinearLayout>
 
@@ -304,14 +294,14 @@
                         android:id="@+id/delete"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="delete" />
+                        android:text="@string/delete" />
 
 
                     <Button
                         android:id="@+id/next"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="PRINT" />
+                        android:text="@string/PRINT" />
 
 
                 </LinearLayout>
@@ -360,7 +350,7 @@
                             android:id="@+id/userinfo_profile"
                             android:layout_width="48dp"
                             android:layout_height="48dp"
-                            android:contentDescription="User Profile Picture"
+                            android:contentDescription="@string/User_Profile_Picture"
                             app:srcCompat="@drawable/unknown_user_48dp"
                             tools:ignore="VectorDrawableCompat" />
 
@@ -370,9 +360,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingStart="8dp"
-                            android:paddingLeft="8dp"
                             android:paddingEnd="0dp"
-                            android:paddingRight="0dp"
                             tools:text="Jane Doe" />
 
                     </LinearLayout>
@@ -392,9 +380,8 @@
                 android:id="@+id/next1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button"
+                android:text="@string/Button"
                 android:visibility="invisible" />
-        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -405,7 +392,7 @@
             android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="result"
+            android:text="@string/result"
             android:visibility="invisible" />
 
     </LinearLayout>
