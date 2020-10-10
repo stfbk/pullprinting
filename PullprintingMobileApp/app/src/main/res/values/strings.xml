@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">FBK Pullprinting</string>
+    <string name="app_name">Pullprinting</string>
     <string name="title_activity_stampa">Stampa</string>
     <string name="action_settings" />
     <string name="title_activity_printer_list">printer_list</string>
     <string name="title_activity_job_list">job_list</string>
-    <string name="login_with_an_fbk_account">SIGN IN</string>
-    <string name="benvenuto_in_fbk_pull_printing">BENVENUTO IN FBK PULL PRINTING</string>
+    <string name="login_with_an_Enterprise_account">SIGN IN</string>
+    <string name="benvenuto_in_Enterprise_pull_printing">BENVENUTO IN PULL PRINTING</string>
     <string name="title_activity_cie_auth">CieAuth</string>
     <string name="auth_granted">Authorization granted</string>
     <string name="exchange_complete">Exchange completed successfully</string>
@@ -13,7 +13,6 @@
     <string name="exchange_notification">Exchanging code for token</string>
     <string name="intro_header">OpenID AppAuth Demo</string>
     <string name="openid_logo_content_description">OpenID Foundation Logo</string>
-    <string name="refresh_token">Refresh token</string>
     <string name="access_token_expires_at">Access token expires at: %s</string>
     <string name="no_access_token_returned">No access token returned</string>
     <string name="no_refresh_token_returned">No refresh token returned</string>
@@ -31,10 +30,61 @@
 
     <string name="base_url">pullprinting.fbk.eu</string>
     <string name="spoolerName">FBK_Virtual_Spooler</string>
-    <string name="SecureSpoolerID">ce08a886-c2e5-8ec6-7e1a-f4150f1bd688</string>
+    <string name="SpoolerID">0274460a-ebc5-3c57-174e-a386afa40f2f</string>
+
+    <string name="SecureSpoolerID">0cb19594-f389-37e6-a417-a436592ab448</string>
     <string name="SecureSpoolerName">FBK_Secure_Virtual_Spooler</string>
-    <string name="messaggioLavoroCompleto">I lavori sono stati mandati correttamente nella stampante selezionata.</string>
+    <string name="messaggioLavoroCompleto">The jobs were successfully sent to the selected printer.</string>
     <string name="NORD_PP_ColorICT_model">TOSHIBA e-STUDIO4555C</string>
     <string name="NORD_AMM_ColorCopier_model">ECOSYS P6230cdn</string>
+
+    <string name="No_access_token_returned">No access token returned</string>
+    <string name="Access_time_has_no_defined_expiry">Access time has no defined expiry</string>
+    <string name="Access_token_has_expired">Access token has expired</string>
+    <string name="No_job_in_the_queue">No job in the queue</string>
+
+
+
+
+    <string name="Pull_Printing">Pull Printing</string>
+    <string name="Enter_with_your_Enterprise_account">Enter with your Enterprise account</string>
+    <string name="Inquadra_il_codice_QR_sulla_stampante">Inquadra il codice QR sulla stampante</string>
+    <string name="Not_Authorized">Not Authorized</string>
+    <string name="reauthorize">reauthorize</string>
+    <string name="Authorization_granted">Authorization granted</string>
+    <string name="Refresh_Token">Refresh Token</string>
+    <string name="View_Profile">View Profile</string>
+    <string name="Sign_Out">Sign Out</string>
+    <string name="printer">printer</string>
+    <string name="Update_Job_List">Update Job List</string>
+    <string name="submit">submit</string>
+    <string name="Select_documents">Select documents</string>
+    <string name="TextView">TextView</string>
+    <string name="Deselect_all">Deselect all</string>
+    <string name="delete">delete</string>
+    <string name="PRINT">PRINT</string>
+    <string name="User_Profile_Picture">User Profile Picture</string>
+    <string name="Button">Button</string>
+    <string name="result">result</string>
+    <string name="Selezione_la_modalità_in_cui_preferisci_stampare">Selezione la modalità in cui preferisci stampare:</string>
+    <string name="QR_Code">QR Code</string>
+    <string name="Printer_List">Printer List</string>
+    <string name="secure_printing">secure printing</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Communicate">Communicate</string>
+    <string name="Logout">Logout</string>
+    <string name="Message_Fragment">Message Fragment</string>
+    <string name="Checkbox">Checkbox</string>
+    <string name="job">job</string>
+    <string name="Username">Username</string>
+    <string name="user_mail">user@enterprise.eu</string>
+    <string name="Select_all">Select all</string>
+    <string name="segnaposto">segnaposto</string>
+
+
+
+
+
+
 
 </resources>

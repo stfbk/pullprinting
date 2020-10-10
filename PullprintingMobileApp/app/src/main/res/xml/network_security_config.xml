@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config >
+    <domain-config cleartextTrafficPermitted="false">
+    <domain includeSubdomains="true">example.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">wmTdaADmj1YKOxJNCjmSEXvfZYp3bNkoifztjUtSsxo=</pin>
+            <!-- backup pin -->
+            <pin digest="SHA-256">8651wEkMkH5ftiaLp57oqmx3KHTFzDgp7ZeJXR0ToBs=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>

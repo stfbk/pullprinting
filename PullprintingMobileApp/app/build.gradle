@@ -18,8 +18,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "eu.fbk.st.pullprinting"
-        minSdkVersion 23
+        applicationId "eu.enterprise.st.pullprinting"
+        minSdkVersion 24
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -39,11 +39,11 @@ android {
 
     productFlavors{
         requestInspection{
-            applicationId "eu.fbk.st.pullprinting.debug"
+            applicationId "eu.enterprise.st.pullprinting.debug"
 
         }
         beta{
-            applicationId "eu.fbk.st.pullprinting.demo"
+            applicationId "eu.enterprise.st.pullprinting.demo"
 
         }
     }*/
@@ -84,7 +84,7 @@ dependencies {
 
 android.applicationVariants.all { variant ->
     variant.outputs.all {
-        def appName = "FBK Pull Printing"
+        def appName = "Pull Printing"
         outputFileName = appName + "-${variant.versionName}.apk"
     }
 }

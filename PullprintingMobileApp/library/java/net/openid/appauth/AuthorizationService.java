@@ -15,8 +15,6 @@
 package net.openid.appauth;
 
 
-import static net.openid.appauth.Preconditions.checkNotNull;
-
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -35,7 +33,6 @@ import android.text.TextUtils;
 import net.openid.appauth.AuthorizationException.GeneralErrors;
 import net.openid.appauth.AuthorizationException.RegistrationRequestErrors;
 import net.openid.appauth.AuthorizationException.TokenRequestErrors;
-
 import net.openid.appauth.IdToken.IdTokenException;
 import net.openid.appauth.browser.BrowserDescriptor;
 import net.openid.appauth.browser.BrowserSelector;
@@ -54,6 +51,8 @@ import java.net.HttpURLConnection;
 import java.net.URLConnection;
 import java.util.Map;
 
+import static net.openid.appauth.Preconditions.checkNotNull;
+
 
 /**
  * Dispatches requests to an OAuth2 authorization service. Note that instances of this class
@@ -64,6 +63,9 @@ public class AuthorizationService {
 
     @VisibleForTesting
     Context mContext;
+
+    public static boolean firstCall=true;
+
 
     @NonNull
     private final AppAuthConfiguration mClientConfiguration;
@@ -235,6 +237,8 @@ public class AuthorizationService {
         checkNotNull(customTabsIntent);
 
         Intent authIntent = prepareAuthorizationRequestIntent(request, customTabsIntent);
+
+
         mContext.startActivity(AuthorizationManagementActivity.createStartIntent(
                 mContext,
                 request,
@@ -393,6 +397,10 @@ public class AuthorizationService {
 
 
 
+
+
+
+
         /*if(cieAuth==true) {
             cieAuth=false;
 
@@ -416,9 +424,12 @@ public class AuthorizationService {
         Logger.debug("Initiating authorization request to %s",
                 request.configuration.authorizationEndpoint);
 
-
         return intent;
     }
+
+
+
+
 
     private static class TokenRequestTask
             extends AsyncTask<Void, Void, JSONObject> {

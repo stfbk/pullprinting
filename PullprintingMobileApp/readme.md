@@ -8,7 +8,7 @@ Server side:
 ssh pullprinting@st-testvm.fbk.eu
 ```
 
-- Start the node service with: (under the FBK PULL PRINTING directory)
+- Start the node service with: (under the PULL PRINTING directory)
 ```
 node testexpress.js
 ```
