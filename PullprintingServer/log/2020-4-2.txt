@@ -1,4 +1,0 @@
-user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 3:22:39:363
-user:leonelli@fbk.eu doc:test.pdf n_pag:1 stampante:b24aab27-7611-e9e0-e054-04c6ea62c20a color:STANDARD_COLOR CIE:NO 3:27:56:255
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:b24aab27-7611-e9e0-e054-04c6ea62c20a color:STANDARD_COLOR CIE:NO 3:29:41:388
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:0550ac86-93e7-61f2-465c-da1ea38d2181 color:STANDARD_COLOR CIE:NO 3:38:48:728

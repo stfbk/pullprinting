@@ -1,9 +1,0 @@
-#!/bin/bash
-echo setup script is running...
-sudo /bin/systemctl start cups || true
-rm /tmp/cloud-print-connector-monitor.sock || true
-gcp-cups-connector -config-filename gcp-cups-connector.config.json & || true
-sudo /bin/systemctl stop cups || true
-node FBK\ Print\ API\ Nodejs\ NOReSFRESH/server.js & || true
-echo setup script finished...
-

@@ -1,7 +1,0 @@
-user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:NO 15:53:27:898
-user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:NO 16:33:3:288
-user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:NO 17:9:8:688
-user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:NO 17:10:27:601
-user:MatteoLeonelli99@gmail.com doc:test.pdf n_pag:1 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:NO 17:10:36:652
-user:MatteoLeonelli99@gmail.com doc:19-02-07.compito.pdf n_pag:2 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:NO 17:16:39:167
-user:umorelli@fbk.eu doc:werdfg.pdf n_pag:1 stampante:e42823ea-d5f9-7ede-7298-4555bfe69ab4  CIE:SI 17:29:57:786
