@@ -1,3 +1,10 @@
 PullprintingServer/node_modules/
+
 PullprintingServer/log/*
+!PullprintingServer/log/.gitkeep
+
 PullprintingServer/certificates/*
+!PullprintingServer/certificates/.gitkeep
+
+PullprintingServer/download/*
+!PullprintingServer/download/.gitkeep
