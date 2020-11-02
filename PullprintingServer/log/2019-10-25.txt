@@ -1,3 +1,0 @@
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 10:31:16:325
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:NO 13:26:38:448
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f956b231-f4d7-fb5c-5c77-595fd684ac8e  CIE:SI 15:27:47:253

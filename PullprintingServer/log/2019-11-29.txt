@@ -1,8 +1,0 @@
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:aec06e88-f564-cea5-531a-e9c7fce0d8a0  CIE:NO 19:7:26:472
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:aec06e88-f564-cea5-531a-e9c7fce0d8a0  CIE:NO 19:8:8:84
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:aec06e88-f564-cea5-531a-e9c7fce0d8a0  CIE:NO 19:8:17:75
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:aec06e88-f564-cea5-531a-e9c7fce0d8a0  CIE:NO 19:8:25:586
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:aec06e88-f564-cea5-531a-e9c7fce0d8a0  CIE:NO 19:8:33:696
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:aec06e88-f564-cea5-531a-e9c7fce0d8a0  CIE:NO 19:8:42:39
-user:leonelli@fbk.eu doc:docMossoCorrettamente n_pag:1 stampante:f03d0997-266a-5856-7153-8c3f680c0d6a  CIE:NO 19:23:37:200
-user:leonelli@fbk.eu doc:test n_pag:1 stampante:f03d0997-266a-5856-7153-8c3f680c0d6a  CIE:NO 19:25:8:995
